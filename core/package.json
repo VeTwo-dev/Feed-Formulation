@@ -1,0 +1,19 @@
+{
+  "name": "@vetwo/feed-core",
+  "version": "1.0.0",
+  "description": "Core Vet feed formulation logic",
+  "license": "MIT",
+  "author": "VeTwo-dev",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.25",
+    "tsx": "^4.22.4"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "zod": "^4.4.3"
+  }
+}
