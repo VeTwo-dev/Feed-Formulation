@@ -1,5 +1,5 @@
 {
-    "feed": {
+    "requirements": {
         "200": {
             "adult_minimum": {
                 "de": 6.1,
@@ -25,7 +25,7 @@
                 "cl": 16,
                 "s": 6
             },
-            "adult_elevated": {
+            "adult_high": {
                 "de": 7.3,
                 "cp": 288,
                 "lys": 12.4,
@@ -37,7 +37,7 @@
                 "cl": 16,
                 "s": 6
             },
-            "working_light_exercise": {
+            "working_light": {
                 "de": 8,
                 "cp": 280,
                 "lys": 12,
@@ -49,7 +49,7 @@
                 "cl": 18.7,
                 "s": 6
             },
-            "working_moderate_exercise": {
+            "working_moderate": {
                 "de": 9.3,
                 "cp": 307,
                 "lys": 13.2,
@@ -61,7 +61,7 @@
                 "cl": 21.3,
                 "s": 6.8
             },
-            "working_heavy_exercise": {
+            "working_heavy": {
                 "de": 10.7,
                 "cp": 345,
                 "lys": 14.8,
@@ -73,7 +73,7 @@
                 "cl": 26.6,
                 "s": 7.5
             },
-            "working_very_heavy_exercise": {
+            "working_very_heavy": {
                 "de": 13.8,
                 "cp": 402,
                 "lys": 17.3,
@@ -109,7 +109,7 @@
                 "cl": 18.7,
                 "s": 6
             },
-            "pregnant_mares_early_under_5_months": {
+            "pregnant_1m": {
                 "de": 6.7,
                 "cp": 252,
                 "lys": 10.8,
@@ -121,7 +121,43 @@
                 "cl": 16,
                 "s": 6
             },
-            "pregnant_mares_5_months": {
+            "pregnant_2m": {
+                "de": 6.7,
+                "cp": 252,
+                "lys": 10.8,
+                "ca": 8,
+                "p": 5.6,
+                "mg": 3,
+                "k": 10,
+                "na": 4,
+                "cl": 16,
+                "s": 6
+            },
+            "pregnant_3m": {
+                "de": 6.7,
+                "cp": 252,
+                "lys": 10.8,
+                "ca": 8,
+                "p": 5.6,
+                "mg": 3,
+                "k": 10,
+                "na": 4,
+                "cl": 16,
+                "s": 6
+            },
+            "pregnant_4m": {
+                "de": 6.7,
+                "cp": 252,
+                "lys": 10.8,
+                "ca": 8,
+                "p": 5.6,
+                "mg": 3,
+                "k": 10,
+                "na": 4,
+                "cl": 16,
+                "s": 6
+            },
+            "pregnant_5m": {
                 "de": 6.8,
                 "cp": 274,
                 "lys": 11.8,
@@ -133,7 +169,7 @@
                 "cl": 16,
                 "s": 6
             },
-            "pregnant_mares_6_months": {
+            "pregnant_6m": {
                 "de": 7,
                 "cp": 282,
                 "lys": 12.1,
@@ -145,7 +181,7 @@
                 "cl": 16,
                 "s": 6
             },
-            "pregnant_mares_7_months": {
+            "pregnant_7m": {
                 "de": 7.2,
                 "cp": 291,
                 "lys": 12.5,
@@ -157,7 +193,7 @@
                 "cl": 16,
                 "s": 6
             },
-            "pregnant_mares_8_months": {
+            "pregnant_8m": {
                 "de": 7.4,
                 "cp": 304,
                 "lys": 13.1,
@@ -169,7 +205,7 @@
                 "cl": 16,
                 "s": 6
             },
-            "pregnant_mares_9_months": {
+            "pregnant_9m": {
                 "de": 7.7,
                 "cp": 319,
                 "lys": 13.7,
@@ -181,7 +217,7 @@
                 "cl": 16.4,
                 "s": 6
             },
-            "pregnant_mares_10_months": {
+            "pregnant_10m": {
                 "de": 8.1,
                 "cp": 336,
                 "lys": 14.5,
@@ -193,7 +229,7 @@
                 "cl": 16.4,
                 "s": 6
             },
-            "pregnant_mares_11_months": {
+            "pregnant_11m": {
                 "de": 8.6,
                 "cp": 357,
                 "lys": 15.4,
@@ -205,7 +241,7 @@
                 "cl": 16.4,
                 "s": 6
             },
-            "lactating_mares_1_month": {
+            "lactating_1m": {
                 "de": 12.7,
                 "cp": 614,
                 "lys": 33.9,
@@ -217,7 +253,7 @@
                 "cl": 18.2,
                 "s": 7.5
             },
-            "lactating_mares_2_months": {
+            "lactating_2m": {
                 "de": 12.7,
                 "cp": 612,
                 "lys": 33.8,
@@ -229,7 +265,7 @@
                 "cl": 18.2,
                 "s": 7.5
             },
-            "lactating_mares_3_months": {
+            "lactating_3m": {
                 "de": 12.2,
                 "cp": 587,
                 "lys": 32.1,
@@ -241,7 +277,7 @@
                 "cl": 18.2,
                 "s": 7.5
             },
-            "lactating_mares_4_months": {
+            "lactating_4m": {
                 "de": 11.8,
                 "cp": 559,
                 "lys": 30.3,
@@ -253,7 +289,7 @@
                 "cl": 18.2,
                 "s": 7.5
             },
-            "lactating_mares_5_months": {
+            "lactating_5m": {
                 "de": 11.3,
                 "cp": 532,
                 "lys": 28.5,
@@ -265,7 +301,7 @@
                 "cl": 18.2,
                 "s": 7.5
             },
-            "lactating_mares_6_months": {
+            "lactating_6m": {
                 "de": 10.9,
                 "cp": 506,
                 "lys": 26.8,
@@ -277,7 +313,7 @@
                 "cl": 18.2,
                 "s": 7.5
             },
-            "growing_animals_4_months": {
+            "growing_4m": {
                 "de": 5.3,
                 "cp": 268,
                 "lys": 11.5,
@@ -289,7 +325,7 @@
                 "cl": 6.3,
                 "s": 2.5
             },
-            "growing_animals_6_months": {
+            "growing_6m": {
                 "de": 6.2,
                 "cp": 270,
                 "lys": 11.6,
@@ -301,7 +337,7 @@
                 "cl": 8,
                 "s": 3.2
             },
-            "growing_animals_12_months": {
+            "growing_12m": {
                 "de": 7.5,
                 "cp": 338,
                 "lys": 14.5,
@@ -313,7 +349,7 @@
                 "cl": 10.6,
                 "s": 4.8
             },
-            "growing_animals_18_months": {
+            "growing_18m": {
                 "de": 7.7,
                 "cp": 320,
                 "lys": 13.7,
@@ -325,7 +361,7 @@
                 "cl": 12.8,
                 "s": 5.8
             },
-            "growing_animals_18_light_exercise": {
+            "growing_18m_light": {
                 "de": 8.8,
                 "cp": 341,
                 "lys": 14.7,
@@ -337,7 +373,7 @@
                 "cl": 14.8,
                 "s": 5.8
             },
-            "growing_animals_18_moderate_exercise": {
+            "growing_18m_moderate": {
                 "de": 10,
                 "cp": 362,
                 "lys": 15.6,
@@ -349,7 +385,7 @@
                 "cl": 16.9,
                 "s": 5.8
             },
-            "growing_animals_24_months": {
+            "growing_24m": {
                 "de": 7.5,
                 "cp": 308,
                 "lys": 13.2,
@@ -361,7 +397,7 @@
                 "cl": 14.2,
                 "s": 6.4
             },
-            "growing_animals_24_light_exercise": {
+            "growing_24m_light": {
                 "de": 8.7,
                 "cp": 332,
                 "lys": 14.3,
@@ -373,7 +409,7 @@
                 "cl": 16.4,
                 "s": 6.4
             },
-            "growing_animals_24_moderate_exercise": {
+            "growing_24m_moderate": {
                 "de": 9.9,
                 "cp": 355,
                 "lys": 15.3,
@@ -385,7 +421,7 @@
                 "cl": 18.7,
                 "s": 6.4
             },
-            "growing_animals_24_heavy_exercise": {
+            "growing_24m_heavy": {
                 "de": 11.2,
                 "cp": 387,
                 "lys": 16.7,
@@ -397,7 +433,7 @@
                 "cl": 23.3,
                 "s": 6.4
             },
-            "growing_animals_24_very_heavy_exercise": {
+            "growing_24m_very_heavy": {
                 "de": 13,
                 "cp": 436,
                 "lys": 18.8,
@@ -435,7 +471,7 @@
                 "cl": 32,
                 "s": 12
             },
-            "adult_elevated": {
+            "adult_high": {
                 "de": 14.5,
                 "cp": 576,
                 "lys": 24.8,
@@ -447,7 +483,7 @@
                 "cl": 32,
                 "s": 12
             },
-            "working_light_exercise": {
+            "working_light": {
                 "de": 16,
                 "cp": 559,
                 "lys": 24.1,
@@ -459,7 +495,7 @@
                 "cl": 37.3,
                 "s": 12
             },
-            "working_moderate_exercise": {
+            "working_moderate": {
                 "de": 18.6,
                 "cp": 614,
                 "lys": 26.4,
@@ -471,7 +507,7 @@
                 "cl": 42.6,
                 "s": 13.5
             },
-            "working_heavy_exercise": {
+            "working_heavy": {
                 "de": 21.3,
                 "cp": 689,
                 "lys": 29.6,
@@ -483,7 +519,7 @@
                 "cl": 53.2,
                 "s": 15
             },
-            "working_very_heavy_exercise": {
+            "working_very_heavy": {
                 "de": 27.6,
                 "cp": 804,
                 "lys": 34.6,
@@ -519,7 +555,7 @@
                 "cl": 37.3,
                 "s": 12
             },
-            "pregnant_mares_early_under_5_months": {
+            "pregnant_1m": {
                 "de": 13.3,
                 "cp": 504,
                 "lys": 21.7,
@@ -531,7 +567,43 @@
                 "cl": 32,
                 "s": 12
             },
-            "pregnant_mares_5_months": {
+            "pregnant_2m": {
+                "de": 13.3,
+                "cp": 504,
+                "lys": 21.7,
+                "ca": 16,
+                "p": 11.2,
+                "mg": 6,
+                "k": 20,
+                "na": 8,
+                "cl": 32,
+                "s": 12
+            },
+            "pregnant_3m": {
+                "de": 13.3,
+                "cp": 504,
+                "lys": 21.7,
+                "ca": 16,
+                "p": 11.2,
+                "mg": 6,
+                "k": 20,
+                "na": 8,
+                "cl": 32,
+                "s": 12
+            },
+            "pregnant_4m": {
+                "de": 13.3,
+                "cp": 504,
+                "lys": 21.7,
+                "ca": 16,
+                "p": 11.2,
+                "mg": 6,
+                "k": 20,
+                "na": 8,
+                "cl": 32,
+                "s": 12
+            },
+            "pregnant_5m": {
                 "de": 13.7,
                 "cp": 548,
                 "lys": 23.6,
@@ -543,7 +615,7 @@
                 "cl": 32,
                 "s": 12
             },
-            "pregnant_mares_6_months": {
+            "pregnant_6m": {
                 "de": 13.9,
                 "cp": 563,
                 "lys": 24.2,
@@ -555,7 +627,7 @@
                 "cl": 32,
                 "s": 12
             },
-            "pregnant_mares_7_months": {
+            "pregnant_7m": {
                 "de": 14.3,
                 "cp": 583,
                 "lys": 25.1,
@@ -567,7 +639,7 @@
                 "cl": 32,
                 "s": 12
             },
-            "pregnant_mares_8_months": {
+            "pregnant_8m": {
                 "de": 14.8,
                 "cp": 607,
                 "lys": 26.1,
@@ -579,7 +651,7 @@
                 "cl": 32,
                 "s": 12
             },
-            "pregnant_mares_9_months": {
+            "pregnant_9m": {
                 "de": 15.4,
                 "cp": 637,
                 "lys": 27.4,
@@ -591,7 +663,7 @@
                 "cl": 32.8,
                 "s": 12
             },
-            "pregnant_mares_10_months": {
+            "pregnant_10m": {
                 "de": 16.2,
                 "cp": 673,
                 "lys": 28.9,
@@ -603,7 +675,7 @@
                 "cl": 32.8,
                 "s": 12
             },
-            "pregnant_mares_11_months": {
+            "pregnant_11m": {
                 "de": 17.1,
                 "cp": 714,
                 "lys": 30.7,
@@ -615,7 +687,7 @@
                 "cl": 32.8,
                 "s": 12
             },
-            "lactating_mares_1_month": {
+            "lactating_1m": {
                 "de": 25.4,
                 "cp": 1228,
                 "lys": 67.8,
@@ -627,7 +699,7 @@
                 "cl": 36.4,
                 "s": 15
             },
-            "lactating_mares_2_months": {
+            "lactating_2m": {
                 "de": 25.3,
                 "cp": 1224,
                 "lys": 67.5,
@@ -639,7 +711,7 @@
                 "cl": 36.4,
                 "s": 15
             },
-            "lactating_mares_3_months": {
+            "lactating_3m": {
                 "de": 24.5,
                 "cp": 1174,
                 "lys": 64.2,
@@ -651,7 +723,7 @@
                 "cl": 36.4,
                 "s": 15
             },
-            "lactating_mares_4_months": {
+            "lactating_4m": {
                 "de": 23.6,
                 "cp": 1118,
                 "lys": 60.5,
@@ -663,7 +735,7 @@
                 "cl": 36.4,
                 "s": 15
             },
-            "lactating_mares_5_months": {
+            "lactating_5m": {
                 "de": 22.7,
                 "cp": 1064,
                 "lys": 57,
@@ -675,7 +747,7 @@
                 "cl": 36.4,
                 "s": 15
             },
-            "lactating_mares_6_months": {
+            "lactating_6m": {
                 "de": 21.8,
                 "cp": 1012,
                 "lys": 53.5,
@@ -687,7 +759,7 @@
                 "cl": 36.4,
                 "s": 15
             },
-            "growing_animals_4_months": {
+            "growing_4m": {
                 "de": 10.6,
                 "cp": 535,
                 "lys": 23,
@@ -699,7 +771,7 @@
                 "cl": 12.5,
                 "s": 5.1
             },
-            "growing_animals_6_months": {
+            "growing_6m": {
                 "de": 12.4,
                 "cp": 541,
                 "lys": 23.3,
@@ -711,7 +783,7 @@
                 "cl": 16.1,
                 "s": 6.5
             },
-            "growing_animals_12_months": {
+            "growing_12m": {
                 "de": 15,
                 "cp": 677,
                 "lys": 29.1,
@@ -723,7 +795,7 @@
                 "cl": 21.2,
                 "s": 9.6
             },
-            "growing_animals_18_months": {
+            "growing_18m": {
                 "de": 15.4,
                 "cp": 639,
                 "lys": 27.5,
@@ -735,7 +807,7 @@
                 "cl": 25.6,
                 "s": 11.6
             },
-            "growing_animals_18_light_exercise": {
+            "growing_18m_light": {
                 "de": 17.7,
                 "cp": 682,
                 "lys": 29.3,
@@ -747,7 +819,7 @@
                 "cl": 29.7,
                 "s": 11.6
             },
-            "growing_animals_18_moderate_exercise": {
+            "growing_18m_moderate": {
                 "de": 20,
                 "cp": 725,
                 "lys": 31.2,
@@ -759,7 +831,7 @@
                 "cl": 33.8,
                 "s": 11.6
             },
-            "growing_animals_24_months": {
+            "growing_24m": {
                 "de": 15,
                 "cp": 616,
                 "lys": 26.5,
@@ -771,7 +843,7 @@
                 "cl": 28.3,
                 "s": 12.9
             },
-            "growing_animals_24_light_exercise": {
+            "growing_24m_light": {
                 "de": 17.4,
                 "cp": 663,
                 "lys": 28.5,
@@ -783,7 +855,7 @@
                 "cl": 32.9,
                 "s": 12.9
             },
-            "growing_animals_24_moderate_exercise": {
+            "growing_24moderate": {
                 "de": 19.9,
                 "cp": 710,
                 "lys": 30.6,
@@ -795,7 +867,7 @@
                 "cl": 37.4,
                 "s": 12.9
             },
-            "growing_animals_24_heavy_exercise": {
+            "growing_24m_heavy": {
                 "de": 22.3,
                 "cp": 775,
                 "lys": 33.3,
@@ -807,7 +879,7 @@
                 "cl": 46.5,
                 "s": 12.9
             },
-            "growing_animals_24_very_heavy_exercise": {
+            "growing_24m_very_heavy": {
                 "de": 26,
                 "cp": 873,
                 "lys": 37.5,
@@ -845,7 +917,7 @@
                 "cl": 40,
                 "s": 15
             },
-            "adult_elevated": {
+            "adult_high": {
                 "de": 18.2,
                 "cp": 720,
                 "lys": 31,
@@ -857,7 +929,7 @@
                 "cl": 40,
                 "s": 15
             },
-            "working_light_exercise": {
+            "working_light": {
                 "de": 20,
                 "cp": 699,
                 "lys": 30.1,
@@ -869,7 +941,7 @@
                 "cl": 46.6,
                 "s": 15
             },
-            "working_moderate_exercise": {
+            "working_moderate": {
                 "de": 23.3,
                 "cp": 768,
                 "lys": 33,
@@ -881,7 +953,7 @@
                 "cl": 53.3,
                 "s": 16.9
             },
-            "working_heavy_exercise": {
+            "working_heavy": {
                 "de": 26.6,
                 "cp": 862,
                 "lys": 37.1,
@@ -893,7 +965,7 @@
                 "cl": 66.5,
                 "s": 18.8
             },
-            "working_very_heavy_exercise": {
+            "working_very_heavy": {
                 "de": 34.5,
                 "cp": 1004,
                 "lys": 43.2,
@@ -929,7 +1001,7 @@
                 "cl": 46.6,
                 "s": 15
             },
-            "pregnant_mares_early_under_5_months": {
+            "pregnant_1m": {
                 "de": 16.7,
                 "cp": 630,
                 "lys": 27.1,
@@ -941,7 +1013,43 @@
                 "cl": 40,
                 "s": 15
             },
-            "pregnant_mares_5_months": {
+            "pregnant_2m": {
+                "de": 16.7,
+                "cp": 630,
+                "lys": 27.1,
+                "ca": 20,
+                "p": 14,
+                "mg": 7.5,
+                "k": 25,
+                "na": 10,
+                "cl": 40,
+                "s": 15
+            },
+            "pregnant_3m": {
+                "de": 16.7,
+                "cp": 630,
+                "lys": 27.1,
+                "ca": 20,
+                "p": 14,
+                "mg": 7.5,
+                "k": 25,
+                "na": 10,
+                "cl": 40,
+                "s": 15
+            },
+            "pregnant_4m": {
+                "de": 16.7,
+                "cp": 630,
+                "lys": 27.1,
+                "ca": 20,
+                "p": 14,
+                "mg": 7.5,
+                "k": 25,
+                "na": 10,
+                "cl": 40,
+                "s": 15
+            },
+            "pregnant_5m": {
                 "de": 17.1,
                 "cp": 685,
                 "lys": 29.5,
@@ -953,7 +1061,7 @@
                 "cl": 40,
                 "s": 15
             },
-            "pregnant_mares_6_months": {
+            "pregnant_6m": {
                 "de": 17.4,
                 "cp": 704,
                 "lys": 30.3,
@@ -965,7 +1073,7 @@
                 "cl": 40,
                 "s": 15
             },
-            "pregnant_mares_7_months": {
+            "pregnant_7m": {
                 "de": 17.9,
                 "cp": 729,
                 "lys": 31.3,
@@ -977,7 +1085,7 @@
                 "cl": 40,
                 "s": 15
             },
-            "pregnant_mares_8_months": {
+            "pregnant_8m": {
                 "de": 18.5,
                 "cp": 759,
                 "lys": 32.7,
@@ -989,7 +1097,7 @@
                 "cl": 40,
                 "s": 15
             },
-            "pregnant_mares_9_months": {
+            "pregnant_9m": {
                 "de": 19.2,
                 "cp": 797,
                 "lys": 34.3,
@@ -1001,7 +1109,7 @@
                 "cl": 41,
                 "s": 15
             },
-            "pregnant_mares_10_months": {
+            "pregnant_10m": {
                 "de": 20.2,
                 "cp": 841,
                 "lys": 36.2,
@@ -1013,7 +1121,7 @@
                 "cl": 41,
                 "s": 15
             },
-            "pregnant_mares_11_months": {
+            "pregnant_11m": {
                 "de": 21.4,
                 "cp": 893,
                 "lys": 38.4,
@@ -1025,7 +1133,7 @@
                 "cl": 41,
                 "s": 15
             },
-            "lactating_mares_1_month": {
+            "lactating_1m": {
                 "de": 31.7,
                 "cp": 1535,
                 "lys": 84.8,
@@ -1037,7 +1145,7 @@
                 "cl": 45.5,
                 "s": 18.8
             },
-            "lactating_mares_2_months": {
+            "lactating_2m": {
                 "de": 31.7,
                 "cp": 1530,
                 "lys": 84.4,
@@ -1049,7 +1157,7 @@
                 "cl": 45.5,
                 "s": 18.8
             },
-            "lactating_mares_3_months": {
+            "lactating_3m": {
                 "de": 30.6,
                 "cp": 1468,
                 "lys": 80.3,
@@ -1061,7 +1169,7 @@
                 "cl": 45.5,
                 "s": 18.8
             },
-            "lactating_mares_4_months": {
+            "lactating_4m": {
                 "de": 29.4,
                 "cp": 1398,
                 "lys": 75.7,
@@ -1073,7 +1181,7 @@
                 "cl": 45.5,
                 "s": 18.8
             },
-            "lactating_mares_5_months": {
+            "lactating_5m": {
                 "de": 28.3,
                 "cp": 1330,
                 "lys": 71.2,
@@ -1085,7 +1193,7 @@
                 "cl": 45.5,
                 "s": 18.8
             },
-            "lactating_mares_6_months": {
+            "lactating_6m": {
                 "de": 27.2,
                 "cp": 1265,
                 "lys": 66.9,
@@ -1097,7 +1205,7 @@
                 "cl": 45.5,
                 "s": 18.8
             },
-            "growing_animals_4_months": {
+            "growing_4m": {
                 "de": 13.3,
                 "cp": 669,
                 "lys": 28.8,
@@ -1109,7 +1217,7 @@
                 "cl": 15.7,
                 "s": 6.3
             },
-            "growing_animals_6_months": {
+            "growing_6m": {
                 "de": 15.5,
                 "cp": 676,
                 "lys": 29.1,
@@ -1121,7 +1229,7 @@
                 "cl": 20.1,
                 "s": 8.1
             },
-            "growing_animals_12_months": {
+            "growing_12m": {
                 "de": 18.8,
                 "cp": 846,
                 "lys": 36.4,
@@ -1133,7 +1241,7 @@
                 "cl": 26.5,
                 "s": 12
             },
-            "growing_animals_18_months": {
+            "growing_18m": {
                 "de": 19.2,
                 "cp": 799,
                 "lys": 34.4,
@@ -1145,7 +1253,7 @@
                 "cl": 32,
                 "s": 14.5
             },
-            "growing_animals_18_light_exercise": {
+            "growing_18m_light": {
                 "de": 22.1,
                 "cp": 853,
                 "lys": 36.7,
@@ -1157,7 +1265,7 @@
                 "cl": 37.1,
                 "s": 14.5
             },
-            "growing_animals_18_moderate_exercise": {
+            "growing_18m_moderate": {
                 "de": 25,
                 "cp": 906,
                 "lys": 39,
@@ -1169,7 +1277,7 @@
                 "cl": 42.2,
                 "s": 14.5
             },
-            "growing_animals_24_months": {
+            "growing_24m": {
                 "de": 18.7,
                 "cp": 770,
                 "lys": 33.1,
@@ -1181,7 +1289,7 @@
                 "cl": 35.4,
                 "s": 16.1
             },
-            "growing_animals_24_light_exercise": {
+            "growing_24m_light": {
                 "de": 21.8,
                 "cp": 829,
                 "lys": 35.7,
@@ -1193,7 +1301,7 @@
                 "cl": 41.1,
                 "s": 16.1
             },
-            "growing_animals_24_moderate_exercise": {
+            "growing_24moderate": {
                 "de": 24.8,
                 "cp": 888,
                 "lys": 38.2,
@@ -1205,7 +1313,7 @@
                 "cl": 46.8,
                 "s": 16.1
             },
-            "growing_animals_24_heavy_exercise": {
+            "growing_24m_heavy": {
                 "de": 27.9,
                 "cp": 969,
                 "lys": 41.7,
@@ -1217,7 +1325,7 @@
                 "cl": 58.2,
                 "s": 16.1
             },
-            "growing_animals_24_very_heavy_exercise": {
+            "growing_24m_very_heavy": {
                 "de": 32.5,
                 "cp": 1091,
                 "lys": 46.9,
@@ -1255,7 +1363,7 @@
                 "cl": 48,
                 "s": 18
             },
-            "adult_elevated": {
+            "adult_high": {
                 "de": 21.8,
                 "cp": 864,
                 "lys": 37.2,
@@ -1267,7 +1375,7 @@
                 "cl": 48,
                 "s": 18
             },
-            "working_light_exercise": {
+            "working_light": {
                 "de": 24,
                 "cp": 839,
                 "lys": 36.1,
@@ -1279,7 +1387,7 @@
                 "cl": 55.9,
                 "s": 18
             },
-            "working_moderate_exercise": {
+            "working_moderate": {
                 "de": 28,
                 "cp": 922,
                 "lys": 39.6,
@@ -1291,7 +1399,7 @@
                 "cl": 64,
                 "s": 20.3
             },
-            "working_heavy_exercise": {
+            "working_heavy": {
                 "de": 31.9,
                 "cp": 1034,
                 "lys": 44.5,
@@ -1303,7 +1411,7 @@
                 "cl": 79.8,
                 "s": 22.6
             },
-            "working_very_heavy_exercise": {
+            "working_very_heavy": {
                 "de": 41.4,
                 "cp": 1205,
                 "lys": 51.8,
@@ -1339,7 +1447,7 @@
                 "cl": 55.9,
                 "s": 18
             },
-            "pregnant_mares_early_under_5_months": {
+            "pregnant_1m": {
                 "de": 20,
                 "cp": 756,
                 "lys": 32.5,
@@ -1351,7 +1459,43 @@
                 "cl": 48,
                 "s": 18
             },
-            "pregnant_mares_5_months": {
+            "pregnant_2m": {
+                "de": 20,
+                "cp": 756,
+                "lys": 32.5,
+                "ca": 24,
+                "p": 16.8,
+                "mg": 9,
+                "k": 30,
+                "na": 12,
+                "cl": 48,
+                "s": 18
+            },
+            "pregnant_3m": {
+                "de": 20,
+                "cp": 756,
+                "lys": 32.5,
+                "ca": 24,
+                "p": 16.8,
+                "mg": 9,
+                "k": 30,
+                "na": 12,
+                "cl": 48,
+                "s": 18
+            },
+            "pregnant_4m": {
+                "de": 20,
+                "cp": 756,
+                "lys": 32.5,
+                "ca": 24,
+                "p": 16.8,
+                "mg": 9,
+                "k": 30,
+                "na": 12,
+                "cl": 48,
+                "s": 18
+            },
+            "pregnant_5m": {
                 "de": 20.5,
                 "cp": 822,
                 "lys": 35.4,
@@ -1363,7 +1507,7 @@
                 "cl": 48,
                 "s": 18
             },
-            "pregnant_mares_6_months": {
+            "pregnant_6m": {
                 "de": 20.9,
                 "cp": 845,
                 "lys": 36.4,
@@ -1375,7 +1519,7 @@
                 "cl": 48,
                 "s": 18
             },
-            "pregnant_mares_7_months": {
+            "pregnant_7m": {
                 "de": 21.5,
                 "cp": 875,
                 "lys": 37.6,
@@ -1387,7 +1531,7 @@
                 "cl": 48,
                 "s": 18
             },
-            "pregnant_mares_8_months": {
+            "pregnant_8m": {
                 "de": 22.2,
                 "cp": 911,
                 "lys": 39.2,
@@ -1399,7 +1543,7 @@
                 "cl": 48,
                 "s": 18
             },
-            "pregnant_mares_9_months": {
+            "pregnant_9m": {
                 "de": 23,
                 "cp": 956,
                 "lys": 41.2,
@@ -1411,7 +1555,7 @@
                 "cl": 49.2,
                 "s": 18
             },
-            "pregnant_mares_10_months": {
+            "pregnant_10m": {
                 "de": 24.2,
                 "cp": 1009,
                 "lys": 43.4,
@@ -1423,7 +1567,7 @@
                 "cl": 49.2,
                 "s": 18
             },
-            "pregnant_mares_11_months": {
+            "pregnant_11m": {
                 "de": 25.7,
                 "cp": 1072,
                 "lys": 46.1,
@@ -1435,7 +1579,7 @@
                 "cl": 49.2,
                 "s": 18
             },
-            "lactating_mares_1_month": {
+            "lactating_1m": {
                 "de": 38,
                 "cp": 1842,
                 "lys": 101.8,
@@ -1447,7 +1591,7 @@
                 "cl": 54.6,
                 "s": 22.6
             },
-            "lactating_mares_2_months": {
+            "lactating_2m": {
                 "de": 38,
                 "cp": 1836,
                 "lys": 101.3,
@@ -1459,7 +1603,7 @@
                 "cl": 54.6,
                 "s": 22.6
             },
-            "lactating_mares_3_months": {
+            "lactating_3m": {
                 "de": 36.7,
                 "cp": 1762,
                 "lys": 96.4,
@@ -1471,7 +1615,7 @@
                 "cl": 54.6,
                 "s": 22.6
             },
-            "lactating_mares_4_months": {
+            "lactating_4m": {
                 "de": 35.3,
                 "cp": 1678,
                 "lys": 90.8,
@@ -1483,7 +1627,7 @@
                 "cl": 54.6,
                 "s": 22.6
             },
-            "lactating_mares_5_months": {
+            "lactating_5m": {
                 "de": 34,
                 "cp": 1596,
                 "lys": 85.4,
@@ -1495,7 +1639,7 @@
                 "cl": 54.6,
                 "s": 22.6
             },
-            "lactating_mares_6_months": {
+            "lactating_6m": {
                 "de": 32.6,
                 "cp": 1518,
                 "lys": 80.3,
@@ -1507,7 +1651,7 @@
                 "cl": 54.6,
                 "s": 22.6
             },
-            "growing_animals_4_months": {
+            "growing_4m": {
                 "de": 16,
                 "cp": 803,
                 "lys": 34.6,
@@ -1519,7 +1663,7 @@
                 "cl": 18.8,
                 "s": 7.6
             },
-            "growing_animals_6_months": {
+            "growing_6m": {
                 "de": 18.6,
                 "cp": 811,
                 "lys": 34.9,
@@ -1531,7 +1675,7 @@
                 "cl": 24.1,
                 "s": 9.7
             },
-            "growing_animals_12_months": {
+            "growing_12m": {
                 "de": 22.6,
                 "cp": 1015,
                 "lys": 43.7,
@@ -1543,7 +1687,7 @@
                 "cl": 31.8,
                 "s": 14.4
             },
-            "growing_animals_18_months": {
+            "growing_18m": {
                 "de": 23,
                 "cp": 959,
                 "lys": 41.3,
@@ -1555,7 +1699,7 @@
                 "cl": 38.4,
                 "s": 17.4
             },
-            "growing_animals_18_light_exercise": {
+            "growing_18m_light": {
                 "de": 26.5,
                 "cp": 1024,
                 "lys": 44,
@@ -1567,7 +1711,7 @@
                 "cl": 44.5,
                 "s": 17.4
             },
-            "growing_animals_18_moderate_exercise": {
+            "growing_18m_moderate": {
                 "de": 30,
                 "cp": 1087,
                 "lys": 46.8,
@@ -1579,7 +1723,7 @@
                 "cl": 50.6,
                 "s": 17.4
             },
-            "growing_animals_24_months": {
+            "growing_24m": {
                 "de": 22.4,
                 "cp": 924,
                 "lys": 39.7,
@@ -1591,7 +1735,7 @@
                 "cl": 42.5,
                 "s": 19.3
             },
-            "growing_animals_24_light_exercise": {
+            "growing_24m_light": {
                 "de": 26.2,
                 "cp": 995,
                 "lys": 42.8,
@@ -1603,7 +1747,7 @@
                 "cl": 49.3,
                 "s": 19.3
             },
-            "growing_animals_24_moderate_exercise": {
+            "growing_24moderate": {
                 "de": 29.8,
                 "cp": 1066,
                 "lys": 45.8,
@@ -1615,7 +1759,7 @@
                 "cl": 56.2,
                 "s": 19.3
             },
-            "growing_animals_24_heavy_exercise": {
+            "growing_24m_heavy": {
                 "de": 33.5,
                 "cp": 1163,
                 "lys": 50,
@@ -1627,7 +1771,7 @@
                 "cl": 69.8,
                 "s": 19.3
             },
-            "growing_animals_24_very_heavy_exercise": {
+            "growing_24m_very_heavy": {
                 "de": 39,
                 "cp": 1309,
                 "lys": 56.3,
@@ -1665,7 +1809,7 @@
                 "cl": 56,
                 "s": 21
             },
-            "adult_elevated": {
+            "adult_high": {
                 "de": 25.5,
                 "cp": 1008,
                 "lys": 43.4,
@@ -1677,7 +1821,7 @@
                 "cl": 56,
                 "s": 21
             },
-            "working_light_exercise": {
+            "working_light": {
                 "de": 28,
                 "cp": 979,
                 "lys": 42.1,
@@ -1689,7 +1833,7 @@
                 "cl": 65.2,
                 "s": 21
             },
-            "working_moderate_exercise": {
+            "working_moderate": {
                 "de": 32.6,
                 "cp": 1075,
                 "lys": 46.2,
@@ -1701,7 +1845,7 @@
                 "cl": 74.6,
                 "s": 23.7
             },
-            "working_heavy_exercise": {
+            "working_heavy": {
                 "de": 37.2,
                 "cp": 1207,
                 "lys": 51.9,
@@ -1713,7 +1857,7 @@
                 "cl": 93.1,
                 "s": 26.3
             },
-            "working_very_heavy_exercise": {
+            "working_very_heavy": {
                 "de": 48.3,
                 "cp": 1406,
                 "lys": 60.5,
@@ -1749,7 +1893,7 @@
                 "cl": 65.2,
                 "s": 21
             },
-            "pregnant_mares_early_under_5_months": {
+            "pregnant_1m": {
                 "de": 23.4,
                 "cp": 882,
                 "lys": 37.9,
@@ -1761,7 +1905,43 @@
                 "cl": 56,
                 "s": 21
             },
-            "pregnant_mares_5_months": {
+            "pregnant_2m": {
+                "de": 23.4,
+                "cp": 882,
+                "lys": 37.9,
+                "ca": 28,
+                "p": 19.6,
+                "mg": 10.5,
+                "k": 35,
+                "na": 14,
+                "cl": 56,
+                "s": 21
+            },
+            "pregnant_3m": {
+                "de": 23.4,
+                "cp": 882,
+                "lys": 37.9,
+                "ca": 28,
+                "p": 19.6,
+                "mg": 10.5,
+                "k": 35,
+                "na": 14,
+                "cl": 56,
+                "s": 21
+            },
+            "pregnant_4m": {
+                "de": 23.4,
+                "cp": 882,
+                "lys": 37.9,
+                "ca": 28,
+                "p": 19.6,
+                "mg": 10.5,
+                "k": 35,
+                "na": 14,
+                "cl": 56,
+                "s": 21
+            },
+            "pregnant_5m": {
                 "de": 23.9,
                 "cp": 959,
                 "lys": 41.3,
@@ -1773,7 +1953,7 @@
                 "cl": 56,
                 "s": 21
             },
-            "pregnant_mares_6_months": {
+            "pregnant_6m": {
                 "de": 24.4,
                 "cp": 985,
                 "lys": 42.4,
@@ -1785,7 +1965,7 @@
                 "cl": 56,
                 "s": 21
             },
-            "pregnant_mares_7_months": {
+            "pregnant_7m": {
                 "de": 25.1,
                 "cp": 1021,
                 "lys": 43.9,
@@ -1797,7 +1977,7 @@
                 "cl": 56,
                 "s": 21
             },
-            "pregnant_mares_8_months": {
+            "pregnant_8m": {
                 "de": 25.9,
                 "cp": 1062,
                 "lys": 45.7,
@@ -1809,7 +1989,7 @@
                 "cl": 56,
                 "s": 21
             },
-            "pregnant_mares_9_months": {
+            "pregnant_9m": {
                 "de": 26.9,
                 "cp": 1115,
                 "lys": 48,
@@ -1821,7 +2001,7 @@
                 "cl": 57.4,
                 "s": 21
             },
-            "pregnant_mares_10_months": {
+            "pregnant_10m": {
                 "de": 28.3,
                 "cp": 1177,
                 "lys": 50.6,
@@ -1833,7 +2013,7 @@
                 "cl": 57.4,
                 "s": 21
             },
-            "pregnant_mares_11_months": {
+            "pregnant_11m": {
                 "de": 30,
                 "cp": 1250,
                 "lys": 53.8,
@@ -1845,7 +2025,7 @@
                 "cl": 57.4,
                 "s": 21
             },
-            "lactating_mares_1_month": {
+            "lactating_1m": {
                 "de": 44.4,
                 "cp": 2149,
                 "lys": 118.7,
@@ -1857,7 +2037,7 @@
                 "cl": 63.7,
                 "s": 26.3
             },
-            "lactating_mares_2_months": {
+            "lactating_2m": {
                 "de": 44.3,
                 "cp": 2142,
                 "lys": 118.1,
@@ -1869,7 +2049,7 @@
                 "cl": 63.7,
                 "s": 26.3
             },
-            "lactating_mares_3_months": {
+            "lactating_3m": {
                 "de": 42.9,
                 "cp": 2055,
                 "lys": 112.4,
@@ -1881,7 +2061,7 @@
                 "cl": 63.7,
                 "s": 26.3
             },
-            "lactating_mares_4_months": {
+            "lactating_4m": {
                 "de": 41.3,
                 "cp": 1957,
                 "lys": 105.9,
@@ -1893,7 +2073,7 @@
                 "cl": 63.7,
                 "s": 26.3
             },
-            "lactating_mares_5_months": {
+            "lactating_5m": {
                 "de": 39.7,
                 "cp": 1862,
                 "lys": 99.8,
@@ -1905,7 +2085,7 @@
                 "cl": 63.7,
                 "s": 26.3
             },
-            "lactating_mares_6_months": {
+            "lactating_6m": {
                 "de": 38.2,
                 "cp": 1771,
                 "lys": 93.6,
@@ -1917,7 +2097,7 @@
                 "cl": 63.7,
                 "s": 26.3
             },
-            "growing_animals_4_months": {
+            "growing_4m": {
                 "de": 18.6,
                 "cp": 936,
                 "lys": 40.3,
@@ -1929,7 +2109,7 @@
                 "cl": 21.9,
                 "s": 8.9
             },
-            "growing_animals_6_months": {
+            "growing_6m": {
                 "de": 21.7,
                 "cp": 947,
                 "lys": 40.8,
@@ -1941,7 +2121,7 @@
                 "cl": 28.2,
                 "s": 11.4
             },
-            "growing_animals_12_months": {
+            "growing_12m": {
                 "de": 26.3,
                 "cp": 1185,
                 "lys": 51,
@@ -1953,7 +2133,7 @@
                 "cl": 37.1,
                 "s": 16.8
             },
-            "growing_animals_18_months": {
+            "growing_18m": {
                 "de": 26.8,
                 "cp": 1118,
                 "lys": 48.1,
@@ -1965,7 +2145,7 @@
                 "cl": 44.8,
                 "s": 20.3
             },
-            "growing_animals_18_light_exercise": {
+            "growing_18m_light": {
                 "de": 30.9,
                 "cp": 1194,
                 "lys": 51.3,
@@ -1977,7 +2157,7 @@
                 "cl": 51.9,
                 "s": 20.3
             },
-            "growing_animals_18_moderate_exercise": {
+            "growing_18m_moderate": {
                 "de": 35,
                 "cp": 1269,
                 "lys": 54.6,
@@ -1989,7 +2169,7 @@
                 "cl": 59.2,
                 "s": 20.3
             },
-            "growing_animals_24_months": {
+            "growing_24m": {
                 "de": 26.2,
                 "cp": 1078,
                 "lys": 46.4,
@@ -2001,7 +2181,7 @@
                 "cl": 49.5,
                 "s": 22.6
             },
-            "growing_animals_24_light_exercise": {
+            "growing_24m_light": {
                 "de": 30.5,
                 "cp": 1160,
                 "lys": 49.9,
@@ -2013,7 +2193,7 @@
                 "cl": 57.6,
                 "s": 22.6
             },
-            "growing_animals_24_moderate_exercise": {
+            "growing_24m_moderate": {
                 "de": 34.8,
                 "cp": 1243,
                 "lys": 53.6,
@@ -2025,7 +2205,7 @@
                 "cl": 65.5,
                 "s": 22.6
             },
-            "growing_animals_24_heavy_exercise": {
+            "growing_24m_heavy": {
                 "de": 39,
                 "cp": 1356,
                 "lys": 58.3,
@@ -2037,7 +2217,7 @@
                 "cl": 81.4,
                 "s": 22.6
             },
-            "growing_animals_24_very_heavy_exercise": {
+            "growing_24m_very_heavy": {
                 "de": 45.5,
                 "cp": 1528,
                 "lys": 65.6,
@@ -2075,7 +2255,7 @@
                 "cl": 64,
                 "s": 24
             },
-            "adult_elevated": {
+            "adult_high": {
                 "de": 29.1,
                 "cp": 1152,
                 "lys": 49.6,
@@ -2087,7 +2267,7 @@
                 "cl": 64,
                 "s": 24
             },
-            "working_light_exercise": {
+            "working_light": {
                 "de": 32,
                 "cp": 1118,
                 "lys": 48.2,
@@ -2099,7 +2279,7 @@
                 "cl": 74.6,
                 "s": 24
             },
-            "working_moderate_exercise": {
+            "working_moderate": {
                 "de": 37.3,
                 "cp": 1229,
                 "lys": 52.8,
@@ -2111,7 +2291,7 @@
                 "cl": 85.3,
                 "s": 27
             },
-            "working_heavy_exercise": {
+            "working_heavy": {
                 "de": 42.6,
                 "cp": 1379,
                 "lys": 59.4,
@@ -2123,7 +2303,7 @@
                 "cl": 106.4,
                 "s": 30.1
             },
-            "working_very_heavy_exercise": {
+            "working_very_heavy": {
                 "de": 55.2,
                 "cp": 1606,
                 "lys": 69.1,
@@ -2159,7 +2339,7 @@
                 "cl": 74.6,
                 "s": 24
             },
-            "pregnant_mares_early_under_5_months": {
+            "pregnant_1m": {
                 "de": 26.7,
                 "cp": 1008,
                 "lys": 43.4,
@@ -2171,7 +2351,43 @@
                 "cl": 64,
                 "s": 24
             },
-            "pregnant_mares_5_months": {
+            "pregnant_2m": {
+                "de": 26.7,
+                "cp": 1008,
+                "lys": 43.4,
+                "ca": 32,
+                "p": 22.4,
+                "mg": 12,
+                "k": 40,
+                "na": 16,
+                "cl": 64,
+                "s": 24
+            },
+            "pregnant_3m": {
+                "de": 26.7,
+                "cp": 1008,
+                "lys": 43.4,
+                "ca": 32,
+                "p": 22.4,
+                "mg": 12,
+                "k": 40,
+                "na": 16,
+                "cl": 64,
+                "s": 24
+            },
+            "pregnant_4m": {
+                "de": 26.7,
+                "cp": 1008,
+                "lys": 43.4,
+                "ca": 32,
+                "p": 22.4,
+                "mg": 12,
+                "k": 40,
+                "na": 16,
+                "cl": 64,
+                "s": 24
+            },
+            "pregnant_5m": {
                 "de": 27.4,
                 "cp": 1096,
                 "lys": 47.2,
@@ -2183,7 +2399,7 @@
                 "cl": 64,
                 "s": 24
             },
-            "pregnant_mares_6_months": {
+            "pregnant_6m": {
                 "de": 27.8,
                 "cp": 1126,
                 "lys": 48.5,
@@ -2195,7 +2411,7 @@
                 "cl": 64,
                 "s": 24
             },
-            "pregnant_mares_7_months": {
+            "pregnant_7m": {
                 "de": 28.6,
                 "cp": 1166,
                 "lys": 50.1,
@@ -2207,7 +2423,7 @@
                 "cl": 64,
                 "s": 24
             },
-            "pregnant_mares_8_months": {
+            "pregnant_8m": {
                 "de": 29.6,
                 "cp": 1214,
                 "lys": 52.3,
@@ -2219,7 +2435,7 @@
                 "cl": 64,
                 "s": 24
             },
-            "pregnant_mares_9_months": {
+            "pregnant_9m": {
                 "de": 30.7,
                 "cp": 1275,
                 "lys": 54.9,
@@ -2231,7 +2447,7 @@
                 "cl": 65.6,
                 "s": 24
             },
-            "pregnant_mares_10_months": {
+            "pregnant_10m": {
                 "de": 32.3,
                 "cp": 1346,
                 "lys": 57.9,
@@ -2243,7 +2459,7 @@
                 "cl": 65.6,
                 "s": 24
             },
-            "pregnant_mares_11_months": {
+            "pregnant_11m": {
                 "de": 34.2,
                 "cp": 1429,
                 "lys": 61.4,
@@ -2255,7 +2471,7 @@
                 "cl": 65.6,
                 "s": 24
             },
-            "lactating_mares_1_month": {
+            "lactating_1m": {
                 "de": 50.7,
                 "cp": 2456,
                 "lys": 135.7,
@@ -2267,7 +2483,7 @@
                 "cl": 72.8,
                 "s": 30.1
             },
-            "lactating_mares_2_months": {
+            "lactating_2m": {
                 "de": 50.7,
                 "cp": 2448,
                 "lys": 135,
@@ -2279,7 +2495,7 @@
                 "cl": 72.8,
                 "s": 30.1
             },
-            "lactating_mares_3_months": {
+            "lactating_3m": {
                 "de": 49,
                 "cp": 2349,
                 "lys": 128.5,
@@ -2291,7 +2507,7 @@
                 "cl": 72.8,
                 "s": 30.1
             },
-            "lactating_mares_4_months": {
+            "lactating_4m": {
                 "de": 47,
                 "cp": 2237,
                 "lys": 121.1,
@@ -2303,7 +2519,7 @@
                 "cl": 72.8,
                 "s": 30.1
             },
-            "lactating_mares_5_months": {
+            "lactating_5m": {
                 "de": 45.3,
                 "cp": 2128,
                 "lys": 113.9,
@@ -2315,7 +2531,7 @@
                 "cl": 72.8,
                 "s": 30.1
             },
-            "lactating_mares_6_months": {
+            "lactating_6m": {
                 "de": 43.5,
                 "cp": 2024,
                 "lys": 107,
@@ -2327,7 +2543,7 @@
                 "cl": 72.8,
                 "s": 30.1
             },
-            "growing_animals_4_months": {
+            "growing_4m": {
                 "de": 21.3,
                 "cp": 1070,
                 "lys": 46.1,
@@ -2339,7 +2555,7 @@
                 "cl": 25.1,
                 "s": 10.1
             },
-            "growing_animals_6_months": {
+            "growing_6m": {
                 "de": 24.8,
                 "cp": 1082,
                 "lys": 46.6,
@@ -2351,7 +2567,7 @@
                 "cl": 32.2,
                 "s": 13
             },
-            "growing_animals_12_months": {
+            "growing_12m": {
                 "de": 30.1,
                 "cp": 1354,
                 "lys": 58.2,
@@ -2363,7 +2579,7 @@
                 "cl": 42.4,
                 "s": 19.2
             },
-            "growing_animals_18_months": {
+            "growing_18m": {
                 "de": 30.7,
                 "cp": 1278,
                 "lys": 55,
@@ -2375,7 +2591,7 @@
                 "cl": 51.2,
                 "s": 23.2
             },
-            "growing_animals_18_light_exercise": {
+            "growing_18m_light": {
                 "de": 35.4,
                 "cp": 1365,
                 "lys": 58.7,
@@ -2387,7 +2603,7 @@
                 "cl": 59.4,
                 "s": 23.2
             },
-            "growing_animals_18_moderate_exercise": {
+            "growing_18m_moderate": {
                 "de": 40,
                 "cp": 1450,
                 "lys": 62.4,
@@ -2399,7 +2615,7 @@
                 "cl": 67.5,
                 "s": 23.2
             },
-            "growing_animals_24_months": {
+            "growing_24m": {
                 "de": 29.9,
                 "cp": 1232,
                 "lys": 53,
@@ -2411,7 +2627,7 @@
                 "cl": 56.6,
                 "s": 25.8
             },
-            "growing_animals_24_light_exercise": {
+            "growing_24m_light": {
                 "de": 34.9,
                 "cp": 1326,
                 "lys": 57.1,
@@ -2423,7 +2639,7 @@
                 "cl": 65.8,
                 "s": 25.8
             },
-            "growing_animals_24_moderate_exercise": {
+            "growing_24m_moderate": {
                 "de": 39.7,
                 "cp": 1421,
                 "lys": 61.1,
@@ -2435,7 +2651,7 @@
                 "cl": 74.9,
                 "s": 25.8
             },
-            "growing_animals_24_heavy_exercise": {
+            "growing_24m_heavy": {
                 "de": 44.6,
                 "cp": 1550,
                 "lys": 66.7,
@@ -2447,7 +2663,7 @@
                 "cl": 93,
                 "s": 25.8
             },
-            "growing_animals_24_very_heavy_exercise": {
+            "growing_24m_very_heavy": {
                 "de": 52,
                 "cp": 1746,
                 "lys": 75,
@@ -2485,7 +2701,7 @@
                 "cl": 72,
                 "s": 27
             },
-            "adult_elevated": {
+            "adult_high": {
                 "de": 32.7,
                 "cp": 1296,
                 "lys": 55.7,
@@ -2497,7 +2713,7 @@
                 "cl": 72,
                 "s": 27
             },
-            "working_light_exercise": {
+            "working_light": {
                 "de": 36,
                 "cp": 1259,
                 "lys": 54.1,
@@ -2509,7 +2725,7 @@
                 "cl": 83.9,
                 "s": 27
             },
-            "working_moderate_exercise": {
+            "working_moderate": {
                 "de": 42,
                 "cp": 1382,
                 "lys": 59.4,
@@ -2521,7 +2737,7 @@
                 "cl": 95.9,
                 "s": 30.4
             },
-            "working_heavy_exercise": {
+            "working_heavy": {
                 "de": 48,
                 "cp": 1551,
                 "lys": 66.7,
@@ -2533,7 +2749,7 @@
                 "cl": 119.7,
                 "s": 33.8
             },
-            "working_very_heavy_exercise": {
+            "working_very_heavy": {
                 "de": 62.1,
                 "cp": 1808,
                 "lys": 77.7,
@@ -2569,7 +2785,7 @@
                 "cl": 83.9,
                 "s": 27
             },
-            "pregnant_mares_early_under_5_months": {
+            "pregnant_1m": {
                 "de": 30,
                 "cp": 1134,
                 "lys": 48.8,
@@ -2581,7 +2797,43 @@
                 "cl": 72,
                 "s": 27
             },
-            "pregnant_mares_5_months": {
+            "pregnant_2m": {
+                "de": 30,
+                "cp": 1134,
+                "lys": 48.8,
+                "ca": 36,
+                "p": 25.2,
+                "mg": 13.5,
+                "k": 45,
+                "na": 18,
+                "cl": 72,
+                "s": 27
+            },
+            "pregnant_3m": {
+                "de": 30,
+                "cp": 1134,
+                "lys": 48.8,
+                "ca": 36,
+                "p": 25.2,
+                "mg": 13.5,
+                "k": 45,
+                "na": 18,
+                "cl": 72,
+                "s": 27
+            },
+            "pregnant_4m": {
+                "de": 30,
+                "cp": 1134,
+                "lys": 48.8,
+                "ca": 36,
+                "p": 25.2,
+                "mg": 13.5,
+                "k": 45,
+                "na": 18,
+                "cl": 72,
+                "s": 27
+            },
+            "pregnant_5m": {
                 "de": 30.8,
                 "cp": 1233,
                 "lys": 53,
@@ -2593,7 +2845,7 @@
                 "cl": 72,
                 "s": 27
             },
-            "pregnant_mares_6_months": {
+            "pregnant_6m": {
                 "de": 31.4,
                 "cp": 1267,
                 "lys": 54.5,
@@ -2605,7 +2857,7 @@
                 "cl": 72,
                 "s": 27
             },
-            "pregnant_mares_7_months": {
+            "pregnant_7m": {
                 "de": 32.2,
                 "cp": 1311,
                 "lys": 56.4,
@@ -2617,7 +2869,7 @@
                 "cl": 72,
                 "s": 27
             },
-            "pregnant_mares_8_months": {
+            "pregnant_8m": {
                 "de": 33.3,
                 "cp": 1367,
                 "lys": 58.8,
@@ -2629,7 +2881,7 @@
                 "cl": 72,
                 "s": 27
             },
-            "pregnant_mares_9_months": {
+            "pregnant_9m": {
                 "de": 34.6,
                 "cp": 1434,
                 "lys": 61.7,
@@ -2641,7 +2893,7 @@
                 "cl": 73.8,
                 "s": 27
             },
-            "pregnant_mares_10_months": {
+            "pregnant_10m": {
                 "de": 36.4,
                 "cp": 1514,
                 "lys": 65.1,
@@ -2653,7 +2905,7 @@
                 "cl": 73.8,
                 "s": 27
             },
-            "pregnant_mares_11_months": {
+            "pregnant_11m": {
                 "de": 38.5,
                 "cp": 1607,
                 "lys": 69.1,
@@ -2665,7 +2917,7 @@
                 "cl": 73.8,
                 "s": 27
             },
-            "lactating_mares_1_month": {
+            "lactating_1m": {
                 "de": 54.4,
                 "cp": 2763,
                 "lys": 152.6,
@@ -2677,7 +2929,7 @@
                 "cl": 81.9,
                 "s": 33.8
             },
-            "lactating_mares_2_months": {
+            "lactating_2m": {
                 "de": 54.3,
                 "cp": 2754,
                 "lys": 152,
@@ -2689,7 +2941,7 @@
                 "cl": 81.9,
                 "s": 33.8
             },
-            "lactating_mares_3_months": {
+            "lactating_3m": {
                 "de": 52.4,
                 "cp": 2642,
                 "lys": 144.5,
@@ -2701,7 +2953,7 @@
                 "cl": 81.9,
                 "s": 33.8
             },
-            "lactating_mares_4_months": {
+            "lactating_4m": {
                 "de": 50.3,
                 "cp": 2516,
                 "lys": 136.2,
@@ -2713,7 +2965,7 @@
                 "cl": 81.9,
                 "s": 33.8
             },
-            "lactating_mares_5_months": {
+            "lactating_5m": {
                 "de": 48.3,
                 "cp": 2394,
                 "lys": 128.2,
@@ -2725,7 +2977,7 @@
                 "cl": 81.9,
                 "s": 33.8
             },
-            "lactating_mares_6_months": {
+            "lactating_6m": {
                 "de": 46.3,
                 "cp": 2277,
                 "lys": 120.5,
@@ -2739,230 +2991,1988 @@
             }
         }
     },
-    "menirals": {
-        "Maintenance": {
-            "Na_percent": 0.1,
-            "S_percent": 0.15,
-            "Fe_mg_kg": 40,
-            "Mn_mg_kg": 40,
-            "Cu_mg_kg": 10,
-            "Zn_mg_kg": 40,
-            "Se_mg_kg": 0.1,
-            "I_mg_kg": "0.1-0.6",
-            "Co_mg_kg": 0.1
+    "minerals": {
+        "adult_minimum": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
         },
-        "Pregnant_and_Lactating_Mares": {
-            "Na_percent": 0.1,
-            "S_percent": 0.15,
-            "Fe_mg_kg": 50,
-            "Mn_mg_kg": 40,
-            "Cu_mg_kg": 10,
-            "Zn_mg_kg": 40,
-            "Se_mg_kg": 0.1,
-            "I_mg_kg": "0.1-0.6",
-            "Co_mg_kg": 0.1
+        "adult_average": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
         },
-        "Growing_Horses": {
-            "Na_percent": 0.1,
-            "S_percent": 0.15,
-            "Fe_mg_kg": 50,
-            "Mn_mg_kg": 40,
-            "Cu_mg_kg": 10,
-            "Zn_mg_kg": 40,
-            "Se_mg_kg": 0.1,
-            "I_mg_kg": "0.1-0.6",
-            "Co_mg_kg": 0.1
+        "adult_high": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
         },
-        "Working_Horses": {
-            "Na_percent": 0.3,
-            "S_percent": 0.15,
-            "Fe_mg_kg": 40,
-            "Mn_mg_kg": 40,
-            "Cu_mg_kg": 10,
-            "Zn_mg_kg": 40,
-            "Se_mg_kg": 0.1,
-            "I_mg_kg": "0.1-0.6",
-            "Co_mg_kg": 0.1
+        "working_light": {
+            "na": 0.2,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
         },
-        "Maximum_Tolerance": {
-            "Na_percent": 3,
-            "S_percent": 1.25,
-            "Fe_mg_kg": 1000,
-            "Mn_mg_kg": 1000,
-            "Cu_mg_kg": 800,
-            "Zn_mg_kg": 500,
-            "Se_mg_kg": 2,
-            "I_mg_kg": 5,
-            "Co_mg_kg": 10
+        "working_moderate": {
+            "na": 0.25,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "working_heavy": {
+            "na": 0.3,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "working_very_heavy": {
+            "na": 0.35,
+            "s": 0.15,
+            "fe": 45,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "stallions_nonbreeding": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "stallions_breeding": {
+            "na": 0.15,
+            "s": 0.15,
+            "fe": 45,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_1m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_2m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_3m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_4m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_5m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 40,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_6m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 45,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_7m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 45,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_8m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 45,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_9m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_10m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "pregnant_11m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "lactating_1m": {
+            "na": 0.15,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "lactating_2m": {
+            "na": 0.15,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "lactating_3m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "lactating_4m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "lactating_5m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "lactating_6m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_4m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_6m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_12m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_18m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_18m_light": {
+            "na": 0.2,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_18m_moderate": {
+            "na": 0.25,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_24m": {
+            "na": 0.1,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_24m_light": {
+            "na": 0.2,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_24m_moderate": {
+            "na": 0.25,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_24m_heavy": {
+            "na": 0.3,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
+        },
+        "growing_24m_very_heavy": {
+            "na": 0.35,
+            "s": 0.15,
+            "fe": 50,
+            "mn": 40,
+            "cu": 10,
+            "zn": 40,
+            "se": 0.1,
+            "i": [
+                0.1,
+                0.6
+            ],
+            "co": 0.1
         }
     },
-    "consumtion%": {
-        "Mature_Maintenance": {
+    "consumptionRange": {
+        "adult_minimum": {
+            "forage": [
+                1.5,
+                1.75
+            ],
+            "concentrate": [
+                0.0,
+                0.0
+            ],
+            "total": [
+                1.5,
+                1.75
+            ]
+        },
+        "adult_average": {
+            "forage": [
+                1.5,
+                2.0
+            ],
+            "concentrate": [
+                0.0,
+                0.5
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "adult_high": {
+            "forage": [
+                1.5,
+                2.0
+            ],
+            "concentrate": [
+                0.25,
+                0.75
+            ],
+            "total": [
+                1.75,
+                2.25
+            ]
+        },
+        "working_light": {
+            "forage": [
+                1.0,
+                2.0
+            ],
+            "concentrate": [
+                0.5,
+                1.0
+            ],
+            "total": [
+                1.5,
+                2.5
+            ]
+        },
+        "working_moderate": {
+            "forage": [
+                1.0,
+                2.0
+            ],
+            "concentrate": [
+                0.75,
+                1.5
+            ],
+            "total": [
+                1.75,
+                2.5
+            ]
+        },
+        "working_heavy": {
+            "forage": [
+                0.75,
+                1.5
+            ],
+            "concentrate": [
+                1.0,
+                2.0
+            ],
+            "total": [
+                2.0,
+                3.0
+            ]
+        },
+        "working_very_heavy": {
+            "forage": [
+                0.75,
+                1.25
+            ],
+            "concentrate": [
+                1.5,
+                2.25
+            ],
+            "total": [
+                2.25,
+                3.25
+            ]
+        },
+        "stallions_nonbreeding": {
+            "forage": [
+                1.5,
+                2.0
+            ],
+            "concentrate": [
+                0.0,
+                0.5
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "stallions_breeding": {
+            "forage": [
+                1.25,
+                2.0
+            ],
+            "concentrate": [
+                0.5,
+                1.25
+            ],
+            "total": [
+                1.75,
+                2.5
+            ]
+        },
+        "pregnant_1m": {
+            "forage": [
+                1.5,
+                2.0
+            ],
+            "concentrate": [
+                0.0,
+                0.5
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "pregnant_2m": {
+            "forage": [
+                1.5,
+                2.0
+            ],
+            "concentrate": [
+                0.0,
+                0.5
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "pregnant_3m": {
+            "forage": [
+                1.5,
+                2.0
+            ],
+            "concentrate": [
+                0.0,
+                0.5
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "pregnant_4m": {
+            "forage": [
+                1.5,
+                2.0
+            ],
+            "concentrate": [
+                0.0,
+                0.5
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "pregnant_5m": {
+            "forage": [
+                1.25,
+                1.75
+            ],
+            "concentrate": [
+                0.25,
+                0.5
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "pregnant_6m": {
+            "forage": [
+                1.25,
+                1.75
+            ],
+            "concentrate": [
+                0.25,
+                0.5
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "pregnant_7m": {
+            "forage": [
+                1.25,
+                1.75
+            ],
+            "concentrate": [
+                0.25,
+                0.75
+            ],
+            "total": [
+                1.75,
+                2.25
+            ]
+        },
+        "pregnant_8m": {
+            "forage": [
+                1.25,
+                1.75
+            ],
+            "concentrate": [
+                0.25,
+                0.75
+            ],
+            "total": [
+                1.75,
+                2.25
+            ]
+        },
+        "pregnant_9m": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                0.5,
+                1.0
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "pregnant_10m": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                0.5,
+                1.0
+            ],
+            "total": [
+                1.5,
+                2.0
+            ]
+        },
+        "pregnant_11m": {
+            "forage": [
+                1.0,
+                1.25
+            ],
+            "concentrate": [
+                0.75,
+                1.25
+            ],
+            "total": [
+                1.75,
+                2.25
+            ]
+        },
+        "lactating_1m": {
+            "forage": [
+                1.0,
+                2.0
+            ],
+            "concentrate": [
+                1.0,
+                2.0
+            ],
+            "total": [
+                2.0,
+                3.25
+            ]
+        },
+        "lactating_2m": {
+            "forage": [
+                1.0,
+                2.0
+            ],
+            "concentrate": [
+                1.0,
+                2.0
+            ],
+            "total": [
+                2.0,
+                3.25
+            ]
+        },
+        "lactating_3m": {
+            "forage": [
+                1.0,
+                2.0
+            ],
+            "concentrate": [
+                0.5,
+                1.5
+            ],
+            "total": [
+                2.0,
+                2.75
+            ]
+        },
+        "lactating_4m": {
+            "forage": [
+                1.25,
+                2.0
+            ],
+            "concentrate": [
+                0.25,
+                1.25
+            ],
+            "total": [
+                1.75,
+                2.5
+            ]
+        },
+        "lactating_5m": {
+            "forage": [
+                1.25,
+                2.0
+            ],
+            "concentrate": [
+                0.25,
+                1.0
+            ],
+            "total": [
+                1.75,
+                2.25
+            ]
+        },
+        "lactating_6m": {
+            "forage": [
+                1.5,
+                2.0
+            ],
+            "concentrate": [
+                0.0,
+                0.75
+            ],
+            "total": [
+                1.5,
+                2.25
+            ]
+        },
+        "growing_4m": {
+            "forage": [
+                0.5,
+                1.0
+            ],
+            "concentrate": [
+                2.0,
+                3.0
+            ],
+            "total": [
+                2.5,
+                3.5
+            ]
+        },
+        "growing_6m": {
+            "forage": [
+                0.5,
+                1.0
+            ],
+            "concentrate": [
+                1.5,
+                3.0
+            ],
+            "total": [
+                2.0,
+                3.5
+            ]
+        },
+        "growing_12m": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                1.0,
+                2.0
+            ],
+            "total": [
+                2.0,
+                3.0
+            ]
+        },
+        "growing_18m": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                1.0,
+                1.5
+            ],
+            "total": [
+                2.0,
+                2.5
+            ]
+        },
+        "growing_18m_light": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                1.0,
+                1.75
+            ],
+            "total": [
+                2.0,
+                2.75
+            ]
+        },
+        "growing_18m_moderate": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                1.25,
+                2.0
+            ],
+            "total": [
+                2.25,
+                3.0
+            ]
+        },
+        "growing_24m": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                1.0,
+                1.5
+            ],
+            "total": [
+                1.75,
+                2.5
+            ]
+        },
+        "growing_24m_light": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                1.0,
+                1.5
+            ],
+            "total": [
+                2.0,
+                2.5
+            ]
+        },
+        "growing_24m_moderate": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                1.0,
+                1.75
+            ],
+            "total": [
+                2.0,
+                2.75
+            ]
+        },
+        "growing_24m_heavy": {
+            "forage": [
+                1.0,
+                1.5
+            ],
+            "concentrate": [
+                1.25,
+                2.0
+            ],
+            "total": [
+                2.25,
+                3.0
+            ]
+        },
+        "growing_24m_very_heavy": {
+            "forage": [
+                0.75,
+                1.25
+            ],
+            "concentrate": [
+                1.5,
+                2.25
+            ],
+            "total": [
+                2.25,
+                3.25
+            ]
+        }
+    },
+    "DMbasis100": {
+        "adult_minimum": {
+            "de": 1.67,
+            "conc": 0,
+            "hay": 100,
+            "cp": 7.7,
+            "lys": 0.22,
+            "ca": 0.22,
+            "p": 0.16,
+            "mg": 0.08,
+            "k": 0.28,
+            "vita": 1600
+        },
+        "adult_average": {
+            "de": 2.0,
+            "conc": 0,
+            "hay": 100,
+            "cp": 8.0,
+            "lys": 0.28,
+            "ca": 0.24,
+            "p": 0.17,
+            "mg": 0.09,
+            "k": 0.3,
+            "vita": 1830
+        },
+        "adult_high": {
+            "de": 2.22,
+            "conc": 10,
+            "hay": 90,
+            "cp": 8.9,
+            "lys": 0.31,
+            "ca": 0.27,
+            "p": 0.19,
+            "mg": 0.1,
+            "k": 0.33,
+            "vita": 2100
+        },
+        "working_light": {
+            "de": 2.45,
+            "conc": 35,
+            "hay": 65,
+            "cp": 9.8,
+            "lys": 0.35,
+            "ca": 0.3,
+            "p": 0.22,
+            "mg": 0.11,
+            "k": 0.37,
+            "vita": 2690
+        },
+        "working_moderate": {
+            "de": 2.65,
+            "conc": 50,
+            "hay": 50,
+            "cp": 10.4,
+            "lys": 0.37,
+            "ca": 0.31,
+            "p": 0.23,
+            "mg": 0.12,
+            "k": 0.39,
+            "vita": 2420
+        },
+        "working_heavy": {
+            "de": 2.85,
+            "conc": 65,
+            "hay": 35,
+            "cp": 11.4,
+            "lys": 0.4,
+            "ca": 0.35,
+            "p": 0.25,
+            "mg": 0.13,
+            "k": 0.43,
+            "vita": 1950
+        },
+        "working_very_heavy": {
+            "de": 3.0,
+            "conc": 70,
+            "hay": 30,
+            "cp": 12.4,
+            "lys": 0.44,
+            "ca": 0.39,
+            "p": 0.28,
+            "mg": 0.14,
+            "k": 0.47,
+            "vita": 1900
+        },
+        "stallion_nonbreeding": {
+            "de": 1.92,
+            "conc": 15.0,
+            "hay": 85.0,
+            "cp": 7.7,
+            "lys": 0.27,
+            "ca": 0.22,
+            "p": 0.16,
+            "mg": 0.09,
+            "k": 0.31,
+            "vita": 2000.0
+        },
+        "stallion_breeding": {
+            "de": 2.4,
+            "conc": 30.0,
+            "hay": 70.0,
+            "cp": 9.6,
+            "lys": 0.34,
+            "ca": 0.29,
+            "p": 0.21,
+            "mg": 0.11,
+            "k": 0.36,
+            "vita": 2640.0
+        },
+        "pregnant_1m": {
+            "de": 2.0,
+            "conc": 0,
+            "hay": 100,
+            "cp": 8.1,
+            "lys": 0.28,
+            "ca": 0.24,
+            "p": 0.17,
+            "mg": 0.09,
+            "k": 0.31,
+            "vita": 3000
+        },
+        "pregnant_2m": {
+            "de": 2.0,
+            "conc": 0,
+            "hay": 100,
+            "cp": 8.1,
+            "lys": 0.28,
+            "ca": 0.24,
+            "p": 0.17,
+            "mg": 0.09,
+            "k": 0.31,
+            "vita": 3000
+        },
+        "pregnant_3m": {
+            "de": 2.0,
+            "conc": 0,
+            "hay": 100,
+            "cp": 8.2,
+            "lys": 0.29,
+            "ca": 0.24,
+            "p": 0.18,
+            "mg": 0.09,
+            "k": 0.31,
+            "vita": 3000
+        },
+        "pregnant_4m": {
+            "de": 2.0,
+            "conc": 5,
+            "hay": 95,
+            "cp": 8.2,
+            "lys": 0.29,
+            "ca": 0.24,
+            "p": 0.18,
+            "mg": 0.09,
+            "k": 0.31,
+            "vita": 3000
+        },
+        "pregnant_5m": {
+            "de": 2.06,
+            "conc": 5,
+            "hay": 95,
+            "cp": 8.3,
+            "lys": 0.29,
+            "ca": 0.26,
+            "p": 0.19,
+            "mg": 0.09,
+            "k": 0.32,
+            "vita": 3000
+        },
+        "pregnant_6m": {
+            "de": 2.06,
+            "conc": 5,
+            "hay": 95,
+            "cp": 8.4,
+            "lys": 0.3,
+            "ca": 0.27,
+            "p": 0.2,
+            "mg": 0.09,
+            "k": 0.32,
+            "vita": 3200
+        },
+        "pregnant_7m": {
+            "de": 2.11,
+            "conc": 10,
+            "hay": 90,
+            "cp": 8.7,
+            "lys": 0.31,
+            "ca": 0.29,
+            "p": 0.22,
+            "mg": 0.1,
+            "k": 0.33,
+            "vita": 3400
+        },
+        "pregnant_8m": {
+            "de": 2.17,
+            "conc": 15,
+            "hay": 85,
+            "cp": 9.1,
+            "lys": 0.32,
+            "ca": 0.36,
+            "p": 0.27,
+            "mg": 0.1,
+            "k": 0.34,
+            "vita": 3500
+        },
+        "pregnant_9m": {
+            "de": 2.25,
+            "conc": 20,
+            "hay": 80,
+            "cp": 10.0,
+            "lys": 0.35,
+            "ca": 0.43,
+            "p": 0.32,
+            "mg": 0.1,
+            "k": 0.35,
+            "vita": 3710
+        },
+        "pregnant_10m": {
+            "de": 2.25,
+            "conc": 20,
+            "hay": 80,
+            "cp": 10.0,
+            "lys": 0.35,
+            "ca": 0.43,
+            "p": 0.32,
+            "mg": 0.1,
+            "k": 0.36,
+            "vita": 3650
+        },
+        "pregnant_11m": {
+            "de": 2.4,
+            "conc": 30,
+            "hay": 70,
+            "cp": 10.6,
+            "lys": 0.37,
+            "ca": 0.45,
+            "p": 0.34,
+            "mg": 0.11,
+            "k": 0.38,
+            "vita": 3650
+        },
+        "lactating_1m": {
+            "de": 2.67,
+            "conc": 50,
+            "hay": 50,
+            "cp": 13.9,
+            "lys": 0.48,
+            "ca": 0.56,
+            "p": 0.36,
+            "mg": 0.11,
+            "k": 0.45,
+            "vita": 2800
+        },
+        "lactating_2m": {
+            "de": 2.6,
+            "conc": 50,
+            "hay": 50,
+            "cp": 13.2,
+            "lys": 0.46,
+            "ca": 0.52,
+            "p": 0.34,
+            "mg": 0.1,
+            "k": 0.42,
+            "vita": 2750
+        },
+        "lactating_3m": {
+            "de": 2.45,
+            "conc": 35,
+            "hay": 65,
+            "cp": 11.0,
+            "lys": 0.37,
+            "ca": 0.36,
+            "p": 0.22,
+            "mg": 0.09,
+            "k": 0.33,
+            "vita": 3020
+        },
+        "lactating_4m": {
+            "de": 2.33,
+            "conc": 25,
+            "hay": 75,
+            "cp": 10.2,
+            "lys": 0.34,
+            "ca": 0.32,
+            "p": 0.2,
+            "mg": 0.09,
+            "k": 0.32,
+            "vita": 2500
+        },
+        "lactating_5m": {
+            "de": 2.22,
+            "conc": 15,
+            "hay": 85,
+            "cp": 9.4,
+            "lys": 0.31,
+            "ca": 0.29,
+            "p": 0.19,
+            "mg": 0.09,
+            "k": 0.31,
+            "vita": 2200
+        },
+        "lactating_6m": {
+            "de": 2.11,
+            "conc": 10,
+            "hay": 90,
+            "cp": 8.7,
+            "lys": 0.29,
+            "ca": 0.27,
+            "p": 0.18,
+            "mg": 0.09,
+            "k": 0.3,
+            "vita": 2000
+        },
+        "growing_4m": {
+            "de": 2.9,
+            "conc": 70,
+            "hay": 30,
+            "cp": 14.5,
+            "lys": 0.6,
+            "ca": 0.68,
+            "p": 0.38,
+            "mg": 0.08,
+            "k": 0.3,
+            "vita": 1580
+        },
+        "growing_6m": {
+            "de": 2.9,
+            "conc": 70,
+            "hay": 30,
+            "cp": 14.5,
+            "lys": 0.61,
+            "ca": 0.56,
+            "p": 0.31,
+            "mg": 0.08,
+            "k": 0.3,
+            "vita": 1870
+        },
+        "growing_12m": {
+            "de": 2.8,
+            "conc": 60,
+            "hay": 40,
+            "cp": 12.6,
+            "lys": 0.53,
+            "ca": 0.43,
+            "p": 0.24,
+            "mg": 0.08,
+            "k": 0.3,
+            "vita": 2160
+        },
+        "growing_18m_not_training": {
+            "de": 2.5,
+            "conc": 45,
+            "hay": 55,
+            "cp": 11.3,
+            "lys": 0.48,
+            "ca": 0.34,
+            "p": 0.19,
+            "mg": 0.08,
+            "k": 0.3,
+            "vita": 2270
+        },
+        "growing_18m_training": {
+            "de": 2.65,
+            "conc": 50,
+            "hay": 50,
+            "cp": 12.0,
+            "lys": 0.5,
+            "ca": 0.36,
+            "p": 0.2,
+            "mg": 0.09,
+            "k": 0.3,
+            "vita": 1800
+        },
+        "growing_18m_light": {
+            "de": 2.67,
+            "conc": 50,
+            "hay": 50,
+            "cp": 12.0,
+            "lys": 0.5,
+            "ca": 0.38,
+            "p": 0.22,
+            "mg": 0.09,
+            "k": 0.3,
+            "vita": 1800
+        },
+        "growing_18m_moderate": {
+            "de": 2.78,
+            "conc": 55,
+            "hay": 45,
+            "cp": 12.4,
+            "lys": 0.52,
+            "ca": 0.4,
+            "p": 0.24,
+            "mg": 0.09,
+            "k": 0.32,
+            "vita": 1850
+        },
+        "growing_24m_not_training": {
+            "de": 2.45,
+            "conc": 35,
+            "hay": 65,
+            "cp": 10.4,
+            "lys": 0.42,
+            "ca": 0.31,
+            "p": 0.17,
+            "mg": 0.09,
+            "k": 0.3,
+            "vita": 2640
+        },
+        "growing_24m_training": {
+            "de": 2.65,
+            "conc": 50,
+            "hay": 50,
+            "cp": 11.3,
+            "lys": 0.45,
+            "ca": 0.34,
+            "p": 0.2,
+            "mg": 0.1,
+            "k": 0.32,
+            "vita": 2040
+        },
+        "growing_24m_light": {
+            "de": 2.56,
+            "conc": 45,
+            "hay": 55,
+            "cp": 11.1,
+            "lys": 0.44,
+            "ca": 0.34,
+            "p": 0.21,
+            "mg": 0.1,
+            "k": 0.31,
+            "vita": 2100
+        },
+        "growing_24m_moderate": {
+            "de": 2.72,
+            "conc": 55,
+            "hay": 45,
+            "cp": 11.7,
+            "lys": 0.47,
+            "ca": 0.38,
+            "p": 0.24,
+            "mg": 0.1,
+            "k": 0.32,
+            "vita": 2000
+        },
+        "growing_24m_heavy": {
+            "de": 2.89,
+            "conc": 65,
+            "hay": 35,
+            "cp": 12.4,
+            "lys": 0.5,
+            "ca": 0.42,
+            "p": 0.28,
+            "mg": 0.11,
+            "k": 0.34,
+            "vita": 1900
+        },
+        "growing_24m_very_heavy": {
+            "de": 3.0,
+            "conc": 70,
+            "hay": 30,
+            "cp": 13.3,
+            "lys": 0.53,
+            "ca": 0.47,
+            "p": 0.31,
+            "mg": 0.12,
+            "k": 0.36,
+            "vita": 1800
+        }
+    },
+    "DMbasis90": {
+        "adult_minimum": {
+            "de": 1.5,
+            "conc": 0,
+            "hay": 100,
+            "cp": 6.9,
+            "lys": 0.20,
+            "ca": 0.20,
+            "p": 0.14,
+            "mg": 0.07,
+            "k": 0.25,
+            "vita": 1440
+        },
+        "adult_average": {
             "de": 1.8,
+            "conc": 0,
+            "hay": 100,
             "cp": 7.2,
             "lys": 0.25,
             "ca": 0.21,
-            "p": 0.15
+            "p": 0.15,
+            "mg": 0.08,
+            "k": 0.27,
+            "vita": 1650
         },
-        "Pregnant_9_months": {
-            "de": 2,
-            "cp": 8.9,
-            "lys": 0.31,
-            "ca": 0.39,
-            "p": 0.29
+        "adult_high": {
+            "de": 2.0,
+            "conc": 10,
+            "hay": 90,
+            "cp": 8.0,
+            "lys": 0.28,
+            "ca": 0.24,
+            "p": 0.17,
+            "mg": 0.09,
+            "k": 0.30,
+            "vita": 1890
         },
-        "Pregnant-10-months": {
-            "de": 2,
-            "cp": 9,
-            "lys": 0.32,
-            "ca": 0.39,
-            "p": 0.3
-        },
-        "Pregnant-11-months": {
-            "de": 2.15,
-            "cp": 9.5,
-            "lys": 0.33,
-            "ca": 0.41,
-            "p": 0.31
-        },
-        "Lactating-Foaling-3-months": {
-            "de": 2.35,
-            "cp": 12,
-            "lys": 0.41,
-            "ca": 0.47,
-            "p": 0.3
-        },
-        "Weaning": {
+        "working_light": {
             "de": 2.2,
-            "cp": 10,
-            "lys": 0.34,
-            "ca": 0.33,
-            "p": 0.2
-        },
-        "Lactating-3-months": {
-            "de": 2.2,
-            "cp": 10,
-            "lys": 0.34,
-            "ca": 0.33,
-            "p": 0.2
-        },
-        "Working-Light": {
-            "de": 2.2,
+            "conc": 35,
+            "hay": 65,
             "cp": 8.8,
             "lys": 0.32,
             "ca": 0.27,
-            "p": 0.19
+            "p": 0.19,
+            "mg": 0.10,
+            "k": 0.34,
+            "vita": 2420
         },
-        "Working-Moderate": {
+        "working_moderate": {
             "de": 2.4,
+            "conc": 50,
+            "hay": 50,
             "cp": 9.4,
             "lys": 0.35,
             "ca": 0.28,
-            "p": 0.22
+            "p": 0.22,
+            "mg": 0.11,
+            "k": 0.35,
+            "vita": 2140
         },
-        "Working-Intense": {
+        "working_heavy": {
             "de": 2.55,
+            "conc": 65,
+            "hay": 35,
             "cp": 10.3,
             "lys": 0.36,
             "ca": 0.31,
-            "p": 0.23
+            "p": 0.23,
+            "mg": 0.12,
+            "k": 0.39,
+            "vita": 1760
         },
-        "Growing-Weanling-4-months": {
-            "de": 2.6,
-            "cp": 13.1,
-            "lys": 0.54,
-            "ca": 0.62,
-            "p": 0.34
+        "working_very_heavy": {
+            "de": 2.7,
+            "conc": 70,
+            "hay": 30,
+            "cp": 11.2,
+            "lys": 0.40,
+            "ca": 0.35,
+            "p": 0.25,
+            "mg": 0.13,
+            "k": 0.42,
+            "vita": 1710
         },
-        "Growing-Weanling-6-months": {
+        "stallion_nonbreeding": {
+            "de": 1.72,
+            "conc": 15.0,
+            "hay": 85.0,
+            "cp": 6.9,
+            "lys": 0.24,
+            "ca": 0.20,
+            "p": 0.14,
+            "mg": 0.08,
+            "k": 0.28,
+            "vita": 1800.0
+        },
+        "stallion_breeding": {
+            "de": 2.15,
+            "conc": 30.0,
+            "hay": 70.0,
+            "cp": 8.6,
+            "lys": 0.30,
+            "ca": 0.26,
+            "p": 0.19,
+            "mg": 0.10,
+            "k": 0.33,
+            "vita": 2370.0
+        },
+        "pregnant_1m": {
+            "de": 1.8,
+            "conc": 0,
+            "hay": 100,
+            "cp": 7.3,
+            "lys": 0.25,
+            "ca": 0.22,
+            "p": 0.15,
+            "mg": 0.08,
+            "k": 0.28,
+            "vita": 2700
+        },
+        "pregnant_2m": {
+            "de": 1.8,
+            "conc": 0,
+            "hay": 100,
+            "cp": 7.3,
+            "lys": 0.25,
+            "ca": 0.22,
+            "p": 0.15,
+            "mg": 0.08,
+            "k": 0.28,
+            "vita": 2700
+        },
+        "pregnant_3m": {
+            "de": 1.8,
+            "conc": 0,
+            "hay": 100,
+            "cp": 7.4,
+            "lys": 0.26,
+            "ca": 0.22,
+            "p": 0.16,
+            "mg": 0.08,
+            "k": 0.28,
+            "vita": 2700
+        },
+        "pregnant_4m": {
+            "de": 1.8,
+            "conc": 5,
+            "hay": 95,
+            "cp": 7.4,
+            "lys": 0.26,
+            "ca": 0.22,
+            "p": 0.16,
+            "mg": 0.08,
+            "k": 0.28,
+            "vita": 2700
+        },
+        "pregnant_5m": {
+            "de": 1.85,
+            "conc": 5,
+            "hay": 95,
+            "cp": 7.5,
+            "lys": 0.26,
+            "ca": 0.23,
+            "p": 0.17,
+            "mg": 0.08,
+            "k": 0.29,
+            "vita": 2700
+        },
+        "pregnant_6m": {
+            "de": 1.85,
+            "conc": 5,
+            "hay": 95,
+            "cp": 7.6,
+            "lys": 0.27,
+            "ca": 0.24,
+            "p": 0.18,
+            "mg": 0.08,
+            "k": 0.29,
+            "vita": 2880
+        },
+        "pregnant_7m": {
+            "de": 1.9,
+            "conc": 10,
+            "hay": 90,
+            "cp": 7.8,
+            "lys": 0.28,
+            "ca": 0.26,
+            "p": 0.20,
+            "mg": 0.09,
+            "k": 0.30,
+            "vita": 3060
+        },
+        "pregnant_8m": {
+            "de": 1.95,
+            "conc": 15,
+            "hay": 85,
+            "cp": 8.2,
+            "lys": 0.29,
+            "ca": 0.32,
+            "p": 0.24,
+            "mg": 0.09,
+            "k": 0.31,
+            "vita": 3150
+        },
+        "pregnant_9m": {
+            "de": 2.0,
+            "conc": 20,
+            "hay": 80,
+            "cp": 8.9,
+            "lys": 0.31,
+            "ca": 0.39,
+            "p": 0.29,
+            "mg": 0.10,
+            "k": 0.32,
+            "vita": 3330
+        },
+        "pregnant_10m": {
+            "de": 2.0,
+            "conc": 20,
+            "hay": 80,
+            "cp": 9.0,
+            "lys": 0.32,
+            "ca": 0.39,
+            "p": 0.30,
+            "mg": 0.10,
+            "k": 0.33,
+            "vita": 3280
+        },
+        "pregnant_11m": {
+            "de": 2.15,
+            "conc": 30,
+            "hay": 70,
+            "cp": 9.5,
+            "lys": 0.33,
+            "ca": 0.41,
+            "p": 0.31,
+            "mg": 0.10,
+            "k": 0.35,
+            "vita": 3280
+        },
+        "lactating_1m": {
+            "de": 2.4,
+            "conc": 50,
+            "hay": 50,
+            "cp": 12.5,
+            "lys": 0.43,
+            "ca": 0.50,
+            "p": 0.32,
+            "mg": 0.10,
+            "k": 0.40,
+            "vita": 2520
+        },
+        "lactating_2m": {
+            "de": 2.35,
+            "conc": 50,
+            "hay": 50,
+            "cp": 12.0,
+            "lys": 0.41,
+            "ca": 0.47,
+            "p": 0.30,
+            "mg": 0.09,
+            "k": 0.38,
+            "vita": 2480
+        },
+        "lactating_3m": {
+            "de": 2.2,
+            "conc": 35,
+            "hay": 65,
+            "cp": 10.0,
+            "lys": 0.34,
+            "ca": 0.33,
+            "p": 0.20,
+            "mg": 0.08,
+            "k": 0.30,
+            "vita": 2720
+        },
+        "lactating_4m": {
+            "de": 2.1,
+            "conc": 25,
+            "hay": 75,
+            "cp": 9.2,
+            "lys": 0.31,
+            "ca": 0.29,
+            "p": 0.18,
+            "mg": 0.08,
+            "k": 0.29,
+            "vita": 2250
+        },
+        "lactating_5m": {
+            "de": 2.0,
+            "conc": 15,
+            "hay": 85,
+            "cp": 8.5,
+            "lys": 0.28,
+            "ca": 0.26,
+            "p": 0.17,
+            "mg": 0.08,
+            "k": 0.28,
+            "vita": 1980
+        },
+        "lactating_6m": {
+            "de": 1.9,
+            "conc": 10,
+            "hay": 90,
+            "cp": 7.8,
+            "lys": 0.26,
+            "ca": 0.24,
+            "p": 0.16,
+            "mg": 0.08,
+            "k": 0.27,
+            "vita": 1800
+        },
+        "growing_6m": {
             "de": 2.6,
-            "cp": 13,
+            "conc": 70,
+            "hay": 30,
+            "cp": 13.0,
             "lys": 0.55,
-            "ca": 0.5,
-            "p": 0.28
+            "ca": 0.50,
+            "p": 0.28,
+            "mg": 0.07,
+            "k": 0.27,
+            "vita": 1680
         },
-        "Yearling-12-months": {
+        "growing_12m": {
             "de": 2.5,
+            "conc": 60,
+            "hay": 40,
             "cp": 11.3,
             "lys": 0.48,
             "ca": 0.39,
-            "p": 0.21
+            "p": 0.21,
+            "mg": 0.07,
+            "k": 0.27,
+            "vita": 1950
         },
-        "Long-yearling-18-months": {
+        "growing_18m": {
             "de": 2.3,
+            "conc": 45,
+            "hay": 55,
             "cp": 10.1,
             "lys": 0.43,
             "ca": 0.31,
-            "p": 0.17
+            "p": 0.17,
+            "mg": 0.07,
+            "k": 0.27,
+            "vita": 2050
         },
-        "Two-year-old": {
+        "growing_18m_light": {
+            "de": 2.4,
+            "conc": 50,
+            "hay": 50,
+            "cp": 10.8,
+            "lys": 0.45,
+            "ca": 0.32,
+            "p": 0.18,
+            "mg": 0.08,
+            "k": 0.27,
+            "vita": 1620
+        },
+        "growing_18m_moderate": {
+            "de": 2.5,
+            "conc": 55,
+            "hay": 45,
+            "cp": 11.2,
+            "lys": 0.47,
+            "ca": 0.36,
+            "p": 0.22,
+            "mg": 0.08,
+            "k": 0.29,
+            "vita": 1665
+        },
+        "growing_24m": {
             "de": 2.2,
+            "conc": 35,
+            "hay": 65,
             "cp": 9.4,
             "lys": 0.38,
             "ca": 0.28,
-            "p": 0.15
+            "p": 0.15,
+            "mg": 0.08,
+            "k": 0.27,
+            "vita": 2380
+        },
+        "growing_24m_light": {
+            "de": 2.3,
+            "conc": 45,
+            "hay": 55,
+            "cp": 10.0,
+            "lys": 0.40,
+            "ca": 0.31,
+            "p": 0.19,
+            "mg": 0.09,
+            "k": 0.28,
+            "vita": 1890
+        },
+        "growing_24m_moderate": {
+            "de": 2.4,
+            "conc": 50,
+            "hay": 50,
+            "cp": 10.1,
+            "lys": 0.41,
+            "ca": 0.31,
+            "p": 0.17,
+            "mg": 0.09,
+            "k": 0.29,
+            "vita": 1840
+        },
+        "growing_24m_heavy": {
+            "de": 2.6,
+            "conc": 65,
+            "hay": 35,
+            "cp": 11.2,
+            "lys": 0.45,
+            "ca": 0.38,
+            "p": 0.25,
+            "mg": 0.10,
+            "k": 0.31,
+            "vita": 1710
+        },
+        "growing_24m_very_heavy": {
+            "de": 2.7,
+            "conc": 70,
+            "hay": 30,
+            "cp": 12.0,
+            "lys": 0.48,
+            "ca": 0.42,
+            "p": 0.28,
+            "mg": 0.11,
+            "k": 0.32,
+            "vita": 1620
         }
     },
-    "consumtionRange": {
-        "Mature_horses_Maintenance": {
-            "Forage_percent": "1.5-2.0",
-            "Concentrate_percent": "0-0.5",
-            "Total_percent": "1.5-2.0"
+    "units": {
+        "minerals_unit": {
+            "na": "%",
+            "s": "%",
+            "fe": "mg/Kg",
+            "mn": "mg/Kg",
+            "cu": "mg/Kg",
+            "zn": "mg/Kg",
+            "se": "mg/Kg",
+            "i": [
+                "mg/Kg",
+                "mg/Kg"
+            ],
+            "co": "mg/Kg"
         },
-        "Mature_horses_Mares_late_gestation": {
-            "Forage_percent": "1.0-1.5",
-            "Concentrate_percent": "0.5-1.0",
-            "Total_percent": "1.5-2.0"
+        "requirements_units": {
+            "de": "Mcal",
+            "cp": "g",
+            "lys": "g",
+            "ca": "g",
+            "p": "g",
+            "mg": "g",
+            "k": "g",
+            "na": "g",
+            "cl": "g",
+            "s": "g"
         },
-        "Mature_horses_Mares_early_lactation": {
-            "Forage_percent": "1.0-2.0",
-            "Concentrate_percent": "1.0-2.0",
-            "Total_percent": "2.0-3.0"
-        },
-        "Mature_horses_Mares_late_lactation": {
-            "Forage_percent": "1.0-2.0",
-            "Concentrate_percent": "0.5-1.5",
-            "Total_percent": "2.0-2.5"
-        },
-        "Working_horses_Light_work": {
-            "Forage_percent": "1.00-2.0",
-            "Concentrate_percent": "0.5-1.0",
-            "Total_percent": "1.5-2.5"
-        },
-        "Working_horses_Moderate_work": {
-            "Forage_percent": "1.0-2.0",
-            "Concentrate_percent": "0.75-1.5",
-            "Total_percent": "1.75-2.5"
-        },
-        "Working_horses_Intense_work": {
-            "Forage_percent": "0.75-1.5",
-            "Concentrate_percent": "1.0-2.0",
-            "Total_percent": "2.0-3.0"
-        },
-        "Young_horses_Nursing_foal_3_months": {
-            "Forage_percent": "0",
-            "Concentrate_percent": "1.0-2.0",
-            "Total_percent": "2.5-3.5"
-        },
-        "Young_horses_Weanling_foal_6_months": {
-            "Forage_percent": "0.5-1.0",
-            "Concentrate_percent": "1.5-3.0",
-            "Total_percent": "2.0-3.5"
-        },
-        "Young_horses_Yearling_foal_12_months": {
-            "Forage_percent": "1.0-1.5",
-            "Concentrate_percent": "1.0-2.0",
-            "Total_percent": "2.0-3.0"
-        },
-        "Young_horses_Long_yearling_18_months": {
-            "Forage_percent": "1.0-1.5",
-            "Concentrate_percent": "1.0-1.5",
-            "Total_percent": "2.0-2.5"
-        },
-        "Young_horses_Two_year_old_24_months": {
-            "Forage_percent": "1.0-1.5",
-            "Concentrate_percent": "1.0-1.5",
-            "Total_percent": "1.75-2.5"
+        "DMbasis": {
+            "de": "Mcal",
+            "conc": "%",
+            "hay": "%",
+            "cp": "%",
+            "lys": "%",
+            "ca": "%",
+            "p": "%",
+            "mg": "%",
+            "k": "%",
+            "vita": "IU"
         }
     }
 }

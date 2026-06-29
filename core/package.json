@@ -6,10 +6,10 @@
   "author": "VeTwo-dev",
   "type": "module",
   "main": "main.js",
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
     "@types/node": "^20.19.25",
+    "cli-table3": "^0.6.5",
     "tsx": "^4.22.4"
   },
   "dependencies": {

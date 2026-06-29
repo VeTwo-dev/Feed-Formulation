@@ -1,0 +1,77 @@
+{
+  "rabbit_requirements": {
+    "growth": {
+      "de": 2500,
+      "tdn": 65,
+      "fiber": 11,
+      "fat": 2,
+      "protein": 16,
+      "ca": 0.4,
+      "p": 0.22,
+      "na": 0.2,
+      "cl": 0.3,
+      "cu": 3,
+      "i": 0.2,
+      "vit_a": 580,
+      "carotene": 0.83,
+      "lysine": 0.65,
+      "methionine": 0.6
+    },
+    "maintenance": {
+      "de": 2100,
+      "tdn": 55,
+      "fiber": 14,
+      "fat": 2,
+      "protein": 12,
+      "na": 0.2,
+      "cl": 0.3,
+      "cu": 3,
+      "i": 0.2
+    },
+    "gestation": {
+      "de": 2500,
+      "tdn": 58,
+      "fiber": 11,
+      "fat": 2,
+      "protein": 15,
+      "ca": 0.45,
+      "p": 0.37,
+      "na": 0.2,
+      "cl": 0.3,
+      "cu": 3,
+      "i": 0.2,
+      "vit_a": 1160,
+      "carotene": 0.83
+    },
+    "lactation": {
+      "de": 2500,
+      "tdn": 70,
+      "fiber": 11,
+      "fat": 2,
+      "protein": 17,
+      "ca": 0.75,
+      "p": 0.5,
+      "na": 0.2,
+      "cl": 0.3,
+      "cu": 3,
+      "i": 0.2
+    }
+  },
+  "units": {
+    "de": "Kcal",
+    "tdn": "%",
+    "fiber": "%",
+    "fat": "%",
+    "protein": "%",
+    "ca": "%",
+    "p": "%",
+    "na": "%",
+    "cl": "%",
+    "cu": "mg",
+    "i": "mg",
+    "vit_a": "IU",
+    "carotene": "mg",
+    "lysine": "%",
+    "methionine": "%"
+  }
+}

@@ -4,7 +4,10 @@ allowBuilds:
   esbuild: true
   sharp: true
   unrs-resolver: true
-  
-packages:
-  - '.'
-  - core
+
+minimumReleaseAgeExclude:
+  - lucide-react@1.18.0
+
+# packages:
+#   - '.'
+#   - core

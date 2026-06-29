@@ -1,0 +1,780 @@
+{
+  "requirements": {
+    "maintenance": {
+      "50": {
+        "dm": 1.0,
+        "dm_percent": 2.0,
+        "tdn": 0.55,
+        "cp": 95,
+        "ca": 2.0,
+        "p": 1.8
+      },
+      "60": {
+        "dm": 1.1,
+        "dm_percent": 1.8,
+        "tdn": 0.61,
+        "cp": 104,
+        "ca": 2.3,
+        "p": 2.1
+      },
+      "70": {
+        "dm": 1.2,
+        "dm_percent": 1.7,
+        "tdn": 0.66,
+        "cp": 113,
+        "ca": 2.5,
+        "p": 2.4
+      }
+    },
+    "flushing": {
+      "50": {
+        "dm": 1.6,
+        "dm_percent": 3.2,
+        "tdn": 0.94,
+        "cp": 150,
+        "ca": 5.3,
+        "p": 2.6
+      },
+      "60": {
+        "dm": 1.7,
+        "dm_percent": 2.8,
+        "tdn": 1.00,
+        "cp": 157,
+        "ca": 5.5,
+        "p": 2.9
+      },
+      "70": {
+        "dm": 1.8,
+        "dm_percent": 2.6,
+        "tdn": 1.06,
+        "cp": 164,
+        "ca": 5.7,
+        "p": 3.2
+      }
+    },
+    "gestation_early": {
+      "50": {
+        "dm": 1.2,
+        "dm_percent": 2.4,
+        "tdn": 0.67,
+        "cp": 112,
+        "ca": 2.9,
+        "p": 2.1
+      },
+      "60": {
+        "dm": 1.3,
+        "dm_percent": 2.2,
+        "tdn": 0.72,
+        "cp": 121,
+        "ca": 3.2,
+        "p": 2.5
+      },
+      "70": {
+        "dm": 1.4,
+        "dm_percent": 2.0,
+        "tdn": 0.77,
+        "cp": 130,
+        "ca": 3.5,
+        "p": 2.9
+      }
+    },
+    "gestation_late_singles": {
+      "50": {
+        "dm": 1.6,
+        "dm_percent": 3.2,
+        "tdn": 0.94,
+        "cp": 175,
+        "ca": 5.9,
+        "p": 4.8
+      },
+      "60": {
+        "dm": 1.7,
+        "dm_percent": 2.8,
+        "tdn": 1.00,
+        "cp": 184,
+        "ca": 6.0,
+        "p": 5.2
+      },
+      "70": {
+        "dm": 1.8,
+        "dm_percent": 2.6,
+        "tdn": 1.06,
+        "cp": 193,
+        "ca": 6.2,
+        "p": 5.6
+      }
+    },
+    "lactation_late_singles": {
+      "50": {
+        "dm": 1.6,
+        "dm_percent": 3.2,
+        "tdn": 0.94,
+        "cp": 175,
+        "ca": 5.9,
+        "p": 4.8
+      },
+      "60": {
+        "dm": 1.7,
+        "dm_percent": 2.8,
+        "tdn": 1.00,
+        "cp": 184,
+        "ca": 6.0,
+        "p": 5.2
+      },
+      "70": {
+        "dm": 1.8,
+        "dm_percent": 2.6,
+        "tdn": 1.06,
+        "cp": 193,
+        "ca": 6.2,
+        "p": 5.6
+      }
+    },
+    "lactation_early_singles": {
+      "50": {
+        "dm": 2.1,
+        "dm_percent": 4.2,
+        "tdn": 1.36,
+        "cp": 304,
+        "ca": 8.9,
+        "p": 6.1
+      },
+      "60": {
+        "dm": 2.3,
+        "dm_percent": 3.8,
+        "tdn": 1.50,
+        "cp": 319,
+        "ca": 9.1,
+        "p": 6.6
+      },
+      "70": {
+        "dm": 2.5,
+        "dm_percent": 3.6,
+        "tdn": 1.63,
+        "cp": 334,
+        "ca": 9.3,
+        "p": 7.0
+      }
+    },
+    "lactation_late_twins": {
+      "50": {
+        "dm": 2.1,
+        "dm_percent": 4.2,
+        "tdn": 1.36,
+        "cp": 304,
+        "ca": 8.9,
+        "p": 6.1
+      },
+      "60": {
+        "dm": 2.3,
+        "dm_percent": 3.8,
+        "tdn": 1.50,
+        "cp": 319,
+        "ca": 9.1,
+        "p": 6.6
+      },
+      "70": {
+        "dm": 2.5,
+        "dm_percent": 3.6,
+        "tdn": 1.63,
+        "cp": 334,
+        "ca": 9.3,
+        "p": 7.0
+      }
+    },
+    "lactation_early_twins": {
+      "50": {
+        "dm": 2.4,
+        "dm_percent": 4.8,
+        "tdn": 1.56,
+        "cp": 389,
+        "ca": 10.5,
+        "p": 7.3
+      },
+      "60": {
+        "dm": 2.6,
+        "dm_percent": 4.3,
+        "tdn": 1.69,
+        "cp": 405,
+        "ca": 10.7,
+        "p": 7.7
+      },
+      "70": {
+        "dm": 2.8,
+        "dm_percent": 4.0,
+        "tdn": 1.82,
+        "cp": 420,
+        "ca": 11.0,
+        "p": 8.1
+      }
+    },
+    "first_lambs_gestation_early": {
+      "40": {
+        "dm": 1.4,
+        "dm_percent": 3.5,
+        "tdn": 0.83,
+        "cp": 156,
+        "ca": 5.5,
+        "p": 3.0
+      },
+      "50": {
+        "dm": 1.5,
+        "dm_percent": 3.0,
+        "tdn": 0.88,
+        "cp": 159,
+        "ca": 5.2,
+        "p": 3.1
+      },
+      "60": {
+        "dm": 1.6,
+        "dm_percent": 2.7,
+        "tdn": 0.94,
+        "cp": 161,
+        "ca": 5.5,
+        "p": 3.4
+      }
+    },
+    "first_lambs_gestation_late": {
+      "40": {
+        "dm": 1.5,
+        "dm_percent": 3.8,
+        "tdn": 0.94,
+        "cp": 187,
+        "ca": 6.4,
+        "p": 3.1
+      },
+      "50": {
+        "dm": 1.6,
+        "dm_percent": 3.2,
+        "tdn": 1.00,
+        "cp": 189,
+        "ca": 6.3,
+        "p": 3.4
+      },
+      "60": {
+        "dm": 1.7,
+        "dm_percent": 2.8,
+        "tdn": 1.07,
+        "cp": 192,
+        "ca": 6.6,
+        "p": 3.8
+      }
+    },
+    "first_lambs_lactation_singles": {
+      "40": {
+        "dm": 1.7,
+        "dm_percent": 4.2,
+        "tdn": 1.12,
+        "cp": 257,
+        "ca": 6.0,
+        "p": 4.3
+      },
+      "50": {
+        "dm": 2.1,
+        "dm_percent": 4.2,
+        "tdn": 1.39,
+        "cp": 282,
+        "ca": 6.5,
+        "p": 4.7
+      },
+      "60": {
+        "dm": 2.3,
+        "dm_percent": 3.8,
+        "tdn": 1.52,
+        "cp": 295,
+        "ca": 6.8,
+        "p": 5.1
+      }
+    },
+    "first_lambs_lactation_twins": {
+      "40": {
+        "dm": 2.1,
+        "dm_percent": 5.2,
+        "tdn": 1.45,
+        "cp": 306,
+        "ca": 8.4,
+        "p": 5.6
+      },
+      "50": {
+        "dm": 2.3,
+        "dm_percent": 4.6,
+        "tdn": 1.59,
+        "cp": 321,
+        "ca": 8.7,
+        "p": 6.0
+      },
+      "60": {
+        "dm": 2.5,
+        "dm_percent": 4.2,
+        "tdn": 1.72,
+        "cp": 336,
+        "ca": 9.0,
+        "p": 6.4
+      }
+    },
+    "replacement_ewe_lambs": {
+      "30": {
+        "dm": 1.2,
+        "dm_percent": 4.0,
+        "tdn": 0.78,
+        "cp": 185,
+        "ca": 6.4,
+        "p": 2.6
+      },
+      "40": {
+        "dm": 1.4,
+        "dm_percent": 3.5,
+        "tdn": 0.91,
+        "cp": 176,
+        "ca": 5.9,
+        "p": 2.6
+      },
+      "50": {
+        "dm": 1.5,
+        "dm_percent": 3.0,
+        "tdn": 0.88,
+        "cp": 136,
+        "ca": 4.8,
+        "p": 2.4
+      }
+    },
+    "replacement_ram_lambs": {
+      "40": {
+        "dm": 1.8,
+        "dm_percent": 4.5,
+        "tdn": 1.10,
+        "cp": 243,
+        "ca": 7.8,
+        "p": 3.7
+      },
+      "60": {
+        "dm": 2.4,
+        "dm_percent": 4.0,
+        "tdn": 1.50,
+        "cp": 263,
+        "ca": 8.4,
+        "p": 4.2
+      },
+      "80": {
+        "dm": 2.8,
+        "dm_percent": 3.5,
+        "tdn": 1.80,
+        "cp": 268,
+        "ca": 8.5,
+        "p": 4.6
+      }
+    },
+    "lambs_finishing": {
+      "30": {
+        "dm": 1.3,
+        "dm_percent": 4.3,
+        "tdn": 0.94,
+        "cp": 191,
+        "ca": 6.6,
+        "p": 3.2
+      },
+      "40": {
+        "dm": 1.6,
+        "dm_percent": 4.0,
+        "tdn": 1.22,
+        "cp": 185,
+        "ca": 6.6,
+        "p": 3.3
+      },
+      "50": {
+        "dm": 1.6,
+        "dm_percent": 3.2,
+        "tdn": 1.23,
+        "cp": 160,
+        "ca": 5.6,
+        "p": 3.0
+      }
+    },
+    "lambs_early_weaned_moderate": {
+      "10": {
+        "dm": 0.5,
+        "dm_percent": 5.0,
+        "tdn": 0.40,
+        "cp": 127,
+        "ca": 4.0,
+        "p": 1.9
+      },
+      "20": {
+        "dm": 1.0,
+        "dm_percent": 5.0,
+        "tdn": 0.80,
+        "cp": 167,
+        "ca": 5.4,
+        "p": 2.5
+      },
+      "30": {
+        "dm": 1.3,
+        "dm_percent": 4.3,
+        "tdn": 1.00,
+        "cp": 191,
+        "ca": 6.7,
+        "p": 3.2
+      },
+      "40": {
+        "dm": 1.5,
+        "dm_percent": 3.8,
+        "tdn": 1.16,
+        "cp": 202,
+        "ca": 7.7,
+        "p": 3.9
+      },
+      "50": {
+        "dm": 1.5,
+        "dm_percent": 3.0,
+        "tdn": 1.16,
+        "cp": 181,
+        "ca": 7.0,
+        "p": 3.8
+      }
+    },
+    "lambs_early_weaned_rapid": {
+      "10": {
+        "dm": 0.6,
+        "dm_percent": 6.0,
+        "tdn": 0.48,
+        "cp": 157,
+        "ca": 4.9,
+        "p": 2.2
+      },
+      "20": {
+        "dm": 1.2,
+        "dm_percent": 6.0,
+        "tdn": 0.92,
+        "cp": 205,
+        "ca": 6.5,
+        "p": 2.9
+      },
+      "30": {
+        "dm": 1.4,
+        "dm_percent": 4.7,
+        "tdn": 1.10,
+        "cp": 216,
+        "ca": 7.2,
+        "p": 3.4
+      },
+      "40": {
+        "dm": 1.5,
+        "dm_percent": 3.8,
+        "tdn": 1.14,
+        "cp": 234,
+        "ca": 8.6,
+        "p": 4.3
+      },
+      "50": {
+        "dm": 1.7,
+        "dm_percent": 3.4,
+        "tdn": 1.29,
+        "cp": 240,
+        "ca": 9.4,
+        "p": 4.8
+      },
+      "60": {
+        "dm": 1.7,
+        "dm_percent": 2.8,
+        "tdn": 1.29,
+        "cp": 240,
+        "ca": 8.2,
+        "p": 4.5
+      }
+    }
+  },
+  "units": {
+    "dm": "Kg",
+    "dm_percent": "% Body Weight",
+    "tdn": "Kg",
+    "cp": "g",
+    "ca": "g",
+    "p": "g"
+  },
+  "concentrationsPercent": {
+    "ewes": {
+      "maintenance": {
+        "70": {
+          "tdn": 55.0,
+          "concentrate": 0.0,
+          "forage": 100.0,
+          "cp": 9.4,
+          "ca": 0.20,
+          "p": 0.20
+        }
+      },
+      "flushing": {
+        "70": {
+          "tdn": 59.0,
+          "concentrate": 15.0,
+          "forage": 85.0,
+          "cp": 9.1,
+          "ca": 0.32,
+          "p": 0.18
+        }
+      },
+      "gestation_early": {
+        "70": {
+          "tdn": 55.0,
+          "concentrate": 0.0,
+          "forage": 100.0,
+          "cp": 9.3,
+          "ca": 0.25,
+          "p": 0.20
+        }
+      },
+      "gestation_late_singles_or_lactation_late_singles": {
+        "70": {
+          "tdn": 59.0,
+          "concentrate": 15.0,
+          "forage": 85.0,
+          "cp": 10.7,
+          "ca": 0.35,
+          "p": 0.23
+        }
+      },
+      "gestation_late_twins_high_rate": {
+        "70": {
+          "tdn": 65.0,
+          "concentrate": 35.0,
+          "forage": 65.0,
+          "cp": 11.3,
+          "ca": 0.40,
+          "p": 0.24
+        }
+      },
+      "lactation_early_singles_or_lactation_late_twins": {
+        "70": {
+          "tdn": 65.0,
+          "concentrate": 35.0,
+          "forage": 65.0,
+          "cp": 13.4,
+          "ca": 0.32,
+          "p": 0.26
+        }
+      },
+      "lactation_early_twins": {
+        "70": {
+          "tdn": 65.0,
+          "concentrate": 35.0,
+          "forage": 65.0,
+          "cp": 15.0,
+          "ca": 0.39,
+          "p": 0.29
+        }
+      }
+    },
+    "ewe_lambs": {
+      "gestation_early": {
+        "55": {
+          "tdn": 59.0,
+          "concentrate": 15.0,
+          "forage": 85.0,
+          "cp": 10.6,
+          "ca": 0.35,
+          "p": 0.22
+        }
+      },
+      "gestation_late_moderate_rate": {
+        "55": {
+          "tdn": 63.0,
+          "concentrate": 30.0,
+          "forage": 70.0,
+          "cp": 11.8,
+          "ca": 0.39,
+          "p": 0.22
+        }
+      },
+      "gestation_late_high_rate": {
+        "55": {
+          "tdn": 66.0,
+          "concentrate": 40.0,
+          "forage": 60.0,
+          "cp": 12.8,
+          "ca": 0.48,
+          "p": 0.25
+        }
+      },
+      "lactation_early_singles": {
+        "55": {
+          "tdn": 66.0,
+          "concentrate": 40.0,
+          "forage": 60.0,
+          "cp": 13.1,
+          "ca": 0.30,
+          "p": 0.22
+        }
+      },
+      "lactation_early_twins": {
+        "55": {
+          "tdn": 69.0,
+          "concentrate": 50.0,
+          "forage": 50.0,
+          "cp": 13.7,
+          "ca": 0.37,
+          "p": 0.26
+        }
+      }
+    },
+    "replacement_ewe_lambs": {
+      "30": {
+        "tdn": 65.0,
+        "concentrate": 35.0,
+        "forage": 65.0,
+        "cp": 12.8,
+        "ca": 0.53,
+        "p": 0.22
+      },
+      "40": {
+        "tdn": 65.0,
+        "concentrate": 35.0,
+        "forage": 65.0,
+        "cp": 10.2,
+        "ca": 0.42,
+        "p": 0.18
+      },
+      "50": {
+        "tdn": 59.0,
+        "concentrate": 15.0,
+        "forage": 85.0,
+        "cp": 9.1,
+        "ca": 0.31,
+        "p": 0.17
+      },
+      "60": {
+        "tdn": 59.0,
+        "concentrate": 15.0,
+        "forage": 85.0,
+        "cp": 9.1,
+        "ca": 0.31,
+        "p": 0.17
+      },
+      "70": {
+        "tdn": 59.0,
+        "concentrate": 15.0,
+        "forage": 85.0,
+        "cp": 9.1,
+        "ca": 0.31,
+        "p": 0.17
+      }
+    },
+    "replacement_ram_lambs": {
+      "40": {
+        "tdn": 63.0,
+        "concentrate": 30.0,
+        "forage": 70.0,
+        "cp": 13.5,
+        "ca": 0.43,
+        "p": 0.21
+      },
+      "60": {
+        "tdn": 63.0,
+        "concentrate": 30.0,
+        "forage": 70.0,
+        "cp": 11.0,
+        "ca": 0.35,
+        "p": 0.18
+      },
+      "80": {
+        "tdn": 63.0,
+        "concentrate": 30.0,
+        "forage": 70.0,
+        "cp": 9.6,
+        "ca": 0.30,
+        "p": 0.16
+      },
+      "90": {
+        "tdn": 63.0,
+        "concentrate": 30.0,
+        "forage": 70.0,
+        "cp": 9.6,
+        "ca": 0.30,
+        "p": 0.16
+      },
+      "100": {
+        "tdn": 63.0,
+        "concentrate": 30.0,
+        "forage": 70.0,
+        "cp": 9.6,
+        "ca": 0.30,
+        "p": 0.16
+      }
+    },
+    "lambs_finishing": {
+      "30": {
+        "tdn": 72.0,
+        "concentrate": 60.0,
+        "forage": 40.0,
+        "cp": 14.7,
+        "ca": 0.51,
+        "p": 0.24
+      },
+      "40": {
+        "tdn": 76.0,
+        "concentrate": 75.0,
+        "forage": 25.0,
+        "cp": 11.6,
+        "ca": 0.42,
+        "p": 0.21
+      },
+      "50": {
+        "tdn": 77.0,
+        "concentrate": 80.0,
+        "forage": 20.0,
+        "cp": 10.0,
+        "ca": 0.35,
+        "p": 0.19
+      }
+    },
+    "early_weaned_lambs": {
+      "10": {
+        "tdn": 80.0,
+        "concentrate": 90.0,
+        "forage": 10.0,
+        "cp": 26.2,
+        "ca": 0.82,
+        "p": 0.38
+      },
+      "20": {
+        "tdn": 78.0,
+        "concentrate": 85.0,
+        "forage": 15.0,
+        "cp": 16.9,
+        "ca": 0.54,
+        "p": 0.24
+      },
+      "30": {
+        "tdn": 78.0,
+        "concentrate": 85.0,
+        "forage": 15.0,
+        "cp": 15.1,
+        "ca": 0.51,
+        "p": 0.24
+      },
+      "40": {
+        "tdn": 78.0,
+        "concentrate": 85.0,
+        "forage": 15.0,
+        "cp": 14.5,
+        "ca": 0.55,
+        "p": 0.28
+      },
+      "50": {
+        "tdn": 78.0,
+        "concentrate": 85.0,
+        "forage": 15.0,
+        "cp": 14.5,
+        "ca": 0.55,
+        "p": 0.28
+      },
+      "60": {
+        "tdn": 78.0,
+        "concentrate": 85.0,
+        "forage": 15.0,
+        "cp": 14.5,
+        "ca": 0.55,
+        "p": 0.28
+      }
+    }
+  }
+}
