@@ -34,3 +34,112 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+```ts
+├── app
+│   ├── Beef
+│   │   └── page.tsx
+│   ├── Dairy
+│   │   └── page.tsx
+│   ├── favicon.ico
+│   ├── global.d.ts
+│   ├── Horse
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── Poultry-Broiler
+│   │   └── page.tsx
+│   ├── Poultry-Layer
+│   │   └── page.tsx
+│   └── Sheep
+│       └── page.tsx
+├── components
+│   ├── Global
+│   │   └── ImageOptimized.tsx
+│   ├── pages
+│   ├── providers
+│   │   ├── CloudinaryUploadWidget.tsx
+│   │   ├── DarkTheme.tsx
+│   │   ├── QueryProvider.tsx
+│   │   └── SmoothScrolling.tsx
+│   └── ui
+│       └── button.tsx
+├── components.json
+├── core
+│   ├── bun.lock
+│   ├── calc
+│   │   ├── dairy
+│   │   │   └── dairy.ts
+│   │   ├── dynamicDietFormulation.ts
+│   │   ├── forceDynamicFormulation.ts
+│   │   ├── general_Functions.ts
+│   │   ├── horse
+│   │   │   ├── funcs
+│   │   │   │   └── func.ts
+│   │   │   └── horse.ts
+│   │   ├── mineralLimitation.ts
+│   │   ├── poultry
+│   │   │   └── poultry.ts
+│   │   ├── sheep
+│   │   │   └── sheep.ts
+│   │   ├── solver
+│   │   │   ├── buildlp.ts
+│   │   │   ├── high.ts
+│   │   │   ├── sum.ts
+│   │   │   └── vars.ts
+│   │   └── validation
+│   │       ├── animal.schema.ts
+│   │       ├── BusnissLogic
+│   │       │   ├── detectImpossibleCases.ts
+│   │       │   └── validateBusinessRules.ts
+│   │       ├── dietInput.schema.ts
+│   │       ├── errors
+│   │       │   └── Business.error.ts
+│   │       ├── feed.schema.ts
+│   │       └── mineral.schema.ts
+│   ├── cli
+│   │   ├── calc.test.ts
+│   │   ├── cli.ts
+│   │   ├── parser.ts
+│   │   └── printer.ts
+│   ├── data
+│   │   ├── dairy.json
+│   │   ├── generalFeed.json
+│   │   ├── goat.json
+│   │   ├── heifer.json
+│   │   ├── horseFeed.json
+│   │   ├── horse.json
+│   │   ├── mineralLimits.json
+│   │   ├── poultry.json
+│   │   ├── rabbit.json
+│   │   ├── sheep.json
+│   │   └── steer.json
+│   ├── lib
+│   │   ├── highs.js
+│   │   └── highs.wasm
+│   ├── package.json
+│   ├── package-lock.json
+│   └── types
+│       └── types.ts
+├── eslint.config.mjs
+├── hooks
+├── lib
+│   └── utils.ts
+├── next.config.ts
+├── next-env.d.ts
+├── package
+├── package.json
+├── package-lock.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── postcss.config.mjs
+├── public
+│   └── highs.wasm
+├── README.md
+├── styles
+│   └── globals.css
+└── tsconfig.json
+```

@@ -8,18 +8,32 @@
     "cf": 5.0,
     "ca": 0.4,
     "p": 0.07,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.50,
+      "warningFraction": 0.40,
+      "solver": "warning",
+      "warningMessage": "Large amounts of fresh alfalfa may increase the risk of digestive disturbances and produce excessive dietary calcium.",
+      "recommendation": "Reduce the amount of fresh alfalfa and replace part of it with grass hay or another roughage source."
+    }
   },
   "Alfalfa_fresh_full_bloom": {
     "dm": 23.8,
     "de": 0.55,
     "cp": 4.6,
-    "lys": null,
+    "lys": 0,
     "ee": 0.6,
     "cf": 7.2,
     "ca": 0.488,
     "p": 0.038,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.50,
+      "warningFraction": 0.40,
+      "solver": "warning",
+      "warningMessage": "High inclusion of mature fresh alfalfa may oversupply calcium and reduce dietary balance.",
+      "recommendation": "Replace part of the alfalfa with grass forage to maintain a balanced forage composition."
+    }
   },
   "Alfalfa_hay_Early_bloom": {
     "dm": 90.5,
@@ -30,18 +44,32 @@
     "cf": 20.8,
     "ca": 1.28,
     "p": 0.19,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.50,
+      "warningFraction": 0.40,
+      "solver": "warning",
+      "warningMessage": "Large amounts of alfalfa hay can provide excessive calcium and protein beyond the animal's requirement.",
+      "recommendation": "Use grass hay for part of the forage if calcium or crude protein exceeds the target."
+    }
   },
   "Alfalfa_hay_midbloom": {
     "dm": 91.0,
     "de": 2.07,
     "cp": 17.0,
-    "lys": null,
+    "lys": 0,
     "ee": 2.4,
     "cf": 25.5,
     "ca": 1.24,
     "p": 0.22,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.50,
+      "warningFraction": 0.40,
+      "solver": "warning",
+      "warningMessage": "High inclusion may lead to excess calcium and unnecessary protein intake.",
+      "recommendation": "Replace part of the alfalfa hay with a lower-calcium forage."
+    }
   },
   "Alfalfa_hay_Full_bloom": {
     "dm": 90.9,
@@ -52,7 +80,14 @@
     "cf": 27.3,
     "ca": 1.08,
     "p": 0.22,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.50,
+      "warningFraction": 0.40,
+      "solver": "warning",
+      "warningMessage": "Feeding excessive alfalfa hay may increase dietary calcium beyond the desired level.",
+      "recommendation": "Balance the ration with grass hay to improve the calcium-to-phosphorus ratio."
+    }
   },
   "Barley_grain": {
     "dm": 88.6,
@@ -63,29 +98,52 @@
     "cf": 4.9,
     "ca": 0.05,
     "p": 0.34,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.35,
+      "warningFraction": 0.30,
+      "maxKg": 2.0,
+      "warningKg": 1.5,
+      "solver": "hard",
+      "warningMessage": "Large quantities of barley grain increase the risk of starch overload, hindgut acidosis and colic.",
+      "recommendation": "Reduce barley and replace part of the energy with fiber or fat sources."
+    }
   },
   "Barley_hay": {
     "dm": 88.4,
     "de": 1.78,
     "cp": 7.8,
-    "lys": null,
+    "lys": 0,
     "ee": 1.9,
     "cf": 23.6,
     "ca": 0.21,
     "p": 0.25,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": null,
+      "warningFraction": null,
+      "solver": "none",
+      "warningMessage": "",
+      "recommendation": ""
+    }
   },
   "Barley_straw": {
     "dm": 91.2,
     "de": 1.47,
     "cp": 4.0,
-    "lys": null,
+    "lys": 0,
     "ee": 1.7,
     "cf": 37.8,
     "ca": 0.27,
     "p": 0.06,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.30,
+      "warningFraction": 0.25,
+      "solver": "warning",
+      "warningMessage": "Excessive barley straw reduces digestibility and may increase the risk of impaction colic.",
+      "recommendation": "Replace part of the straw with higher-quality forage."
+    }
   },
   "Beet": {
     "dm": 91.0,
@@ -96,40 +154,70 @@
     "cf": 18.2,
     "ca": 0.62,
     "p": 0.09,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.30,
+      "warningFraction": 0.25,
+      "maxKg": 3.0,
+      "warningKg": 2.5,
+      "solver": "warning",
+      "warningMessage": "Very high levels of beet pulp may reduce dietary balance and should be introduced gradually.",
+      "recommendation": "Limit beet pulp and diversify fiber sources within the ration."
+    }
   },
   "Barseem_Green": {
     "dm": 18.4,
     "de": 0.42,
     "cp": 2.5,
-    "lys": null,
+    "lys": 0,
     "ee": 0.6,
     "cf": 3.8,
     "ca": 0.25,
     "p": 0.07,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.60,
+      "warningFraction": 0.50,
+      "solver": "warning",
+      "warningMessage": "Large quantities of fresh berseem may increase the risk of digestive upset due to its high moisture content.",
+      "recommendation": "Offer with dry forage such as hay or straw to improve fiber intake."
+    }
   },
   "Barseem_Hay": {
     "dm": 91.7,
     "de": 2.0,
     "cp": 13.4,
-    "lys": null,
+    "lys": 0,
     "ee": 2.7,
     "cf": 21.0,
     "ca": 1.27,
     "p": 0.28,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.50,
+      "warningFraction": 0.40,
+      "solver": "warning",
+      "warningMessage": "High inclusion may oversupply calcium and protein depending on the animal's requirements.",
+      "recommendation": "Mix with grass hay to maintain a balanced forage composition."
+    }
   },
   "Corn": {
     "dm": 81.0,
     "de": 1.67,
     "cp": 7.2,
-    "lys": null,
+    "lys": 0,
     "ee": 1.9,
     "cf": 20.4,
     "ca": 0.41,
     "p": 0.2,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.50,
+      "warningFraction": 0.40,
+      "solver": "warning",
+      "warningMessage": "Large amounts of fresh corn forage may dilute dietary dry matter intake and increase the risk of digestive disturbances.",
+      "recommendation": "Combine with dry forage such as hay to maintain adequate fiber and dry matter intake."
+    }
   },
   "Corn_grain": {
     "dm": 88.0,
@@ -140,7 +228,16 @@
     "cf": 2.2,
     "ca": 0.05,
     "p": 0.27,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.30,
+      "warningFraction": 0.25,
+      "maxKg": 2.0,
+      "warningKg": 1.5,
+      "solver": "hard",
+      "warningMessage": "High levels of corn grain increase starch intake and may cause hindgut acidosis, colic and laminitis.",
+      "recommendation": "Reduce corn grain and replace part of the energy with oats, beet pulp or vegetable oil."
+    }
   },
   "Corn_silage": {
     "dm": 30.4,
@@ -151,18 +248,34 @@
     "cf": 7.2,
     "ca": 0.09,
     "p": 0.07,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.40,
+      "warningFraction": 0.30,
+      "maxKg": 8.0,
+      "warningKg": 6.0,
+      "solver": "warning",
+      "warningMessage": "Poor-quality corn silage or excessive inclusion may increase the risk of digestive disorders and spoilage-related problems.",
+      "recommendation": "Use only high-quality silage and balance the ration with dry forage."
+    }
   },
   "Corn_stove": {
     "dm": 22.7,
     "de": 0.46,
     "cp": 1.3,
-    "lys": null,
+    "lys": 0,
     "ee": 0.4,
     "cf": 6.0,
     "ca": 0.07,
     "p": 0.01,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.30,
+      "warningFraction": 0.25,
+      "solver": "warning",
+      "warningMessage": "Corn stover is poorly digestible and excessive amounts may increase the risk of impaction colic.",
+      "recommendation": "Replace part of the corn stover with higher-quality forage."
+    }
   },
   "Cotton_seeds": {
     "dm": 91.0,
@@ -173,29 +286,56 @@
     "cf": 12.2,
     "ca": 0.17,
     "p": 1.11,
-    "type": "protein"
+    "type": "protein",
+    "constraints": {
+      "maxFraction": 0.15,
+      "warningFraction": 0.10,
+      "maxKg": 1.0,
+      "warningKg": 0.7,
+      "solver": "hard",
+      "warningMessage": "Excessive cottonseed may increase gossypol intake and reduce diet safety.",
+      "recommendation": "Limit cottonseed and diversify protein sources with soybean meal or linseed meal."
+    }
   },
   "Fats_animal": {
     "dm": 99.2,
     "de": 7.94,
-    "cp": null,
-    "lys": null,
+    "cp": 0,
+    "lys": 0,
     "ee": 98.4,
-    "cf": null,
-    "ca": null,
-    "p": null,
-    "type": "energy"
+    "cf": 0,
+    "ca": 0,
+    "p": 0,
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.05,
+      "warningFraction": 0.03,
+      "maxKg": 0.30,
+      "warningKg": 0.20,
+      "solver": "hard",
+      "warningMessage": "Animal fat is generally not recommended as a primary fat source for horses.",
+      "recommendation": "Use vegetable oil instead of animal fat whenever possible."
+    }
   },
   "Fats_oil_vegetable": {
     "dm": 99.8,
     "de": 8.98,
-    "cp": null,
-    "lys": null,
+    "cp": 0,
+    "lys": 0,
     "ee": 99.7,
-    "cf": null,
-    "ca": null,
-    "p": null,
-    "type": "energy"
+    "cf": 0,
+    "ca": 0,
+    "p": 0,
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.10,
+      "warningFraction": 0.08,
+      "maxKg": 0.50,
+      "warningKg": 0.35,
+      "solver": "warning",
+      "warningMessage": "Rapid introduction or excessive vegetable oil may reduce fiber digestion and feed intake.",
+      "recommendation": "Increase oil gradually and keep adequate forage in the diet."
+    }
   },
   "Fish_Menhaden": {
     "dm": 91.7,
@@ -206,18 +346,36 @@
     "cf": 0.7,
     "ca": 5.01,
     "p": 2.87,
-    "type": "protein"
+    "type": "protein",
+    "constraints": {
+      "maxFraction": 0.05,
+      "warningFraction": 0.03,
+      "maxKg": 0.30,
+      "warningKg": 0.20,
+      "solver": "hard",
+      "warningMessage": "Fish meal is highly concentrated and excessive use may reduce palatability and oversupply minerals.",
+      "recommendation": "Reserve fish meal for specialized formulations and keep inclusion low."
+    }
   },
   "Horse_beans": {
     "dm": 87.5,
     "de": 3.23,
     "cp": 25.7,
-    "lys": null,
+    "lys": 0,
     "ee": 1.4,
     "cf": 8.2,
     "ca": 0.13,
     "p": 0.54,
-    "type": "protein"
+    "type": "protein",
+    "constraints": {
+      "maxFraction": 0.20,
+      "warningFraction": 0.15,
+      "maxKg": 2.0,
+      "warningKg": 1.5,
+      "solver": "warning",
+      "warningMessage": "High inclusion of horse beans may reduce digestibility and increase digestive disturbances.",
+      "recommendation": "Mix horse beans with other protein ingredients instead of using them alone."
+    }
   },
   "Linseed_meal": {
     "dm": 90.2,
@@ -228,29 +386,54 @@
     "cf": 9.1,
     "ca": 0.39,
     "p": 0.8,
-    "type": "protein"
+    "type": "protein",
+    "constraints": {
+      "maxFraction": 0.20,
+      "warningFraction": 0.15,
+      "maxKg": 2.0,
+      "warningKg": 1.5,
+      "solver": "warning",
+      "warningMessage": "Excessive linseed meal may increase dietary fat and reduce ration balance.",
+      "recommendation": "Use together with other protein sources instead of as the sole protein ingredient."
+    }
   },
   "Millet": {
     "dm": 20.7,
     "de": 0.35,
     "cp": 2.1,
-    "lys": null,
+    "lys": 0,
     "ee": 0.6,
     "cf": 6.5,
-    "ca": null,
-    "p": null,
-    "type": "roughage"
+    "ca": 0,
+    "p": 0,
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.40,
+      "warningFraction": 0.30,
+      "solver": "warning",
+      "warningMessage": "High levels of millet forage may reduce overall nutrient density of the ration.",
+      "recommendation": "Combine millet with higher-quality forage."
+    }
   },
   "Molasses": {
     "dm": 74.3,
     "de": 2.6,
     "cp": 4.3,
-    "lys": null,
+    "lys": 0,
     "ee": 0.2,
     "cf": 0.4,
     "ca": 0.74,
     "p": 0.08,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.10,
+      "warningFraction": 0.08,
+      "maxKg": 0.50,
+      "warningKg": 0.30,
+      "solver": "hard",
+      "warningMessage": "Excessive molasses increases sugar intake and may contribute to obesity, insulin dysregulation and laminitis.",
+      "recommendation": "Limit molasses and replace excess energy with fiber or oil."
+    }
   },
   "Oats_grain": {
     "dm": 89.2,
@@ -261,29 +444,52 @@
     "cf": 10.7,
     "ca": 0.08,
     "p": 0.34,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.40,
+      "warningFraction": 0.35,
+      "maxKg": 3.0,
+      "warningKg": 2.5,
+      "solver": "warning",
+      "warningMessage": "Although safer than corn, excessive oats still increase starch intake.",
+      "recommendation": "Split grain between meals and maintain adequate forage intake."
+    }
   },
   "Oats_hay": {
     "dm": 90.7,
     "de": 1.75,
     "cp": 8.6,
-    "lys": null,
+    "lys": 0,
     "ee": 2.3,
     "cf": 27.3,
     "ca": 0.29,
     "p": 0.23,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.70,
+      "warningFraction": 0.60,
+      "solver": "none",
+      "warningMessage": "",
+      "recommendation": ""
+    }
   },
   "Oats_straw": {
     "dm": 92.2,
     "de": 1.49,
     "cp": 4.1,
-    "lys": null,
+    "lys": 0,
     "ee": 2.0,
     "cf": 37.2,
     "ca": 0.22,
     "p": 0.08,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.30,
+      "warningFraction": 0.25,
+      "solver": "warning",
+      "warningMessage": "High levels of oat straw may reduce digestibility and increase the risk of impaction colic.",
+      "recommendation": "Use oat straw only as part of the forage source, not as the primary forage."
+    }
   },
   "Peanut_oil_meal": {
     "dm": 92.4,
@@ -294,7 +500,14 @@
     "cf": 7.7,
     "ca": 0.29,
     "p": 0.61,
-    "type": "protein"
+    "type": "protein",
+    "constraints": {
+      "maxFraction": 0.20,
+      "warningFraction": 0.15,
+      "solver": "warning",
+      "warningMessage": "High inclusion of peanut meal may reduce amino acid balance and increase the risk of aflatoxin exposure if feed quality is poor.",
+      "recommendation": "Use peanut meal with other protein sources and ensure the ingredient is free from mold contamination."
+    }
   },
   "Rice_bran": {
     "dm": 90.5,
@@ -305,7 +518,14 @@
     "cf": 11.7,
     "ca": 0.09,
     "p": 1.57,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.25,
+      "warningFraction": 0.20,
+      "solver": "warning",
+      "warningMessage": "Large amounts of rice bran may create an inverted calcium-to-phosphorus ratio and increase phosphorus intake.",
+      "recommendation": "Balance rice bran with adequate calcium supplementation such as limestone or alfalfa."
+    }
   },
   "Rice_grain": {
     "dm": 89.0,
@@ -316,7 +536,14 @@
     "cf": 8.6,
     "ca": 0.07,
     "p": 0.32,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.25,
+      "warningFraction": 0.20,
+      "solver": "warning",
+      "warningMessage": "High levels of rice grain increase starch intake and may predispose horses to hindgut acidosis and digestive upset.",
+      "recommendation": "Limit rice grain and combine it with adequate forage and slowly fermentable energy sources."
+    }
   },
   "Sorghum_grain": {
     "dm": 90.1,
@@ -327,7 +554,14 @@
     "cf": 2.6,
     "ca": 0.04,
     "p": 0.32,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.30,
+      "warningFraction": 0.25,
+      "solver": "warning",
+      "warningMessage": "Excessive sorghum grain may reduce starch digestibility and increase digestive disturbances.",
+      "recommendation": "Mix sorghum with other grains and avoid making it the sole concentrate source."
+    }
   },
   "Soybean_oil_meal": {
     "dm": 89.9,
@@ -338,7 +572,14 @@
     "cf": 3.5,
     "ca": 0.26,
     "p": 0.64,
-    "type": "protein"
+    "type": "protein",
+    "constraints": {
+      "maxFraction": 0.25,
+      "warningFraction": 0.20,
+      "solver": "warning",
+      "warningMessage": "Large amounts of soybean meal may oversupply crude protein beyond the horse's requirement.",
+      "recommendation": "Use soybean meal only to meet protein requirements and combine it with energy ingredients."
+    }
   },
   "Sunflower_oil_meal": {
     "dm": 92.5,
@@ -349,7 +590,14 @@
     "cf": 11.7,
     "ca": 0.42,
     "p": 0.94,
-    "type": "protein"
+    "type": "protein",
+    "constraints": {
+      "maxFraction": 0.20,
+      "warningFraction": 0.15,
+      "solver": "warning",
+      "warningMessage": "High inclusion of sunflower meal increases dietary fiber and may reduce energy density.",
+      "recommendation": "Balance sunflower meal with higher-energy ingredients when required."
+    }
   },
   "Wheat_bran": {
     "dm": 89.0,
@@ -360,7 +608,14 @@
     "cf": 10.0,
     "ca": 0.13,
     "p": 1.13,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.20,
+      "warningFraction": 0.15,
+      "solver": "warning",
+      "warningMessage": "Large amounts of wheat bran provide excessive phosphorus and may disrupt the calcium-to-phosphorus ratio.",
+      "recommendation": "Always balance wheat bran with calcium-rich ingredients."
+    }
   },
   "Wheat_grain": {
     "dm": 88.9,
@@ -371,83 +626,142 @@
     "cf": 2.5,
     "ca": 0.04,
     "p": 0.38,
-    "type": "energy"
+    "type": "energy",
+    "constraints": {
+      "maxFraction": 0.25,
+      "warningFraction": 0.20,
+      "solver": "warning",
+      "warningMessage": "High wheat grain intake may increase the risk of starch overload, colic and hindgut acidosis.",
+      "recommendation": "Feed wheat grain in limited amounts and provide sufficient forage."
+    }
   },
   "Wheat_straw": {
     "dm": 91.3,
     "de": 1.48,
     "cp": 3.2,
-    "lys": null,
+    "lys": 0,
     "ee": 1.8,
     "cf": 38.0,
     "ca": 0.16,
     "p": 0.04,
-    "type": "roughage"
+    "type": "roughage",
+    "constraints": {
+      "maxFraction": 0.30,
+      "warningFraction": 0.25,
+      "solver": "warning",
+      "warningMessage": "High levels of wheat straw reduce digestibility and may increase the risk of impaction colic.",
+      "recommendation": "Use wheat straw only as a partial forage source and combine it with good-quality hay."
+    }
   },
   "Bone_meal": {
-    "dm": null,
-    "de": null,
-    "cp": null,
-    "lys": null,
-    "ee": null,
-    "cf": null,
+    "dm": 0,
+    "de": 0,
+    "cp": 0,
+    "lys": 0,
+    "ee": 0,
+    "cf": 0,
     "ca": 30.71,
     "p": 12.86,
-    "type": "mineral_phosphorus"
+    "type": "mineral_phosphorus",
+    "constraints": {
+      "maxFraction": 0.02,
+      "warningFraction": 0.015,
+      "solver": "warning",
+      "warningMessage": "Excessive bone meal may oversupply calcium and phosphorus and disturb mineral balance.",
+      "recommendation": "Use bone meal only to correct phosphorus or calcium deficiencies identified by the formulation engine."
+    }
   },
   "Calcium_arbonate": {
-    "dm": null,
-    "de": null,
-    "cp": null,
-    "lys": null,
-    "ee": null,
-    "cf": null,
+    "dm": 0,
+    "de": 0,
+    "cp": 0,
+    "lys": 0,
+    "ee": 0,
+    "cf": 0,
     "ca": 39.39,
-    "p": null,
-    "type": "mineral_calcium"
+    "p": 0,
+    "type": "mineral_calcium",
+    "constraints": {
+      "maxFraction": 0.015,
+      "warningFraction": 0.01,
+      "solver": "warning",
+      "warningMessage": "Excess calcium carbonate may produce an excessively high calcium-to-phosphorus ratio.",
+      "recommendation": "Only supplement calcium carbonate when dietary calcium is below the requirement."
+    }
   },
   "Dicalcium_phosphate": {
-    "dm": null,
-    "de": null,
-    "cp": null,
-    "lys": null,
-    "ee": null,
-    "cf": null,
+    "dm": 0,
+    "de": 0,
+    "cp": 0,
+    "lys": 0,
+    "ee": 0,
+    "cf": 0,
     "ca": 22.0,
     "p": 19.03,
-    "type": ["mineral_phosphorus","mineral_calcium"]
+    "type": [
+      "mineral_phosphorus",
+      "mineral_calcium"
+    ],
+    "constraints": {
+      "maxFraction": 0.02,
+      "warningFraction": 0.015,
+      "solver": "warning",
+      "warningMessage": "Excess dicalcium phosphate may oversupply both calcium and phosphorus.",
+      "recommendation": "Use only the quantity required to meet mineral requirements."
+    }
   },
   "Limestone": {
-    "dm": null,
-    "de": null,
-    "cp": null,
-    "lys": null,
-    "ee": null,
-    "cf": null,
+    "dm": 0,
+    "de": 0,
+    "cp": 0,
+    "lys": 0,
+    "ee": 0,
+    "cf": 0,
     "ca": 34.0,
-    "p": null,
-    "type": "mineral_calcium"
+    "p": 0,
+    "type": "mineral_calcium",
+    "constraints": {
+      "maxFraction": 0.015,
+      "warningFraction": 0.01,
+      "solver": "warning",
+      "warningMessage": "Excess limestone may produce an excessively high calcium intake and an imbalanced calcium-to-phosphorus ratio.",
+      "recommendation": "Supplement limestone only when calcium is deficient."
+    }
   },
   "Oystershell": {
-    "dm": null,
-    "de": null,
-    "cp": null,
-    "lys": null,
-    "ee": null,
-    "cf": null,
+    "dm": 0,
+    "de": 0,
+    "cp": 0,
+    "lys": 0,
+    "ee": 0,
+    "cf": 0,
     "ca": 38.0,
-    "p": null,
-    "type": "mineral_calcium"
+    "p": 0,
+    "type": "mineral_calcium",
+    "constraints": {
+      "maxFraction": 0.015,
+      "warningFraction": 0.01,
+      "solver": "warning",
+      "warningMessage": "Large amounts of oyster shell may provide unnecessary calcium and reduce mineral balance.",
+      "recommendation": "Use oyster shell only when additional calcium is required."
+    }
   },
   "Sodium_phosphate": {
-    "dm": null,
-    "de": null,
-    "cp": null,
-    "lys": null,
-    "ee": null,
-    "cf": null,
-    "ca": null,
+    "dm": 0,
+    "de": 0,
+    "cp": 0,
+    "lys": 0,
+    "ee": 0,
+    "cf": 0,
+    "ca": 0,
     "p": 22.5,
-    "type": "mineral_phosphorus"
+    "type": "mineral_phosphorus",
+    "constraints": {
+      "maxFraction": 0.015,
+      "warningFraction": 0.01,
+      "solver": "warning",
+      "warningMessage": "Excess sodium phosphate may oversupply phosphorus and disturb the calcium-to-phosphorus ratio.",
+      "recommendation": "Supplement sodium phosphate only when phosphorus deficiency exists."
+    }
   }
 }

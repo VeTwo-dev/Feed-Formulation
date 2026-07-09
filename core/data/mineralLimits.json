@@ -1,0 +1,26 @@
+{
+  "horse": {
+    "calcium": {
+      "min": 20,
+      "max": 120,
+      "tolerance": 5
+    },
+    "phosphorus": {
+      "min": 12,
+      "max": 80,
+      "tolerance": 5
+    }
+  },
+  "cow": {
+    "calcium": {
+      "min": 35,
+      "max": 180,
+      "tolerance": 5
+    },
+    "phosphorus": {
+      "min": 20,
+      "max": 100,
+      "tolerance": 5
+    }
+  }
+}

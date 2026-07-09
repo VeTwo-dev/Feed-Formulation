@@ -2,12 +2,14 @@ allowBuilds:
   '@parcel/watcher': true
   '@swc/core': true
   esbuild: true
+  lwip2: set this to true or false
   sharp: true
   unrs-resolver: true
 
 minimumReleaseAgeExclude:
   - lucide-react@1.18.0
+  - prettier@3.9.3
 
-# packages:
-#   - '.'
-#   - core
+packages:
+  - '.'
+  - core
